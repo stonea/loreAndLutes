@@ -1,0 +1,28 @@
+#Makefile for LOOP on Linux
+
+#Include some global vars and such
+include ../Makefile.linux.deps
+
+#Please do not edit these options
+OBJECTS=callback.o callbacklibrary.o class.o classlibrary.o code.o command.o commandlibrary.o info.o instance.o instanceset.o interpreter.o label.o loop.o looplib_standard.o offset.o parameters.o parammap.o reader.o variables.o
+TARGET=libloop.so
+VERSION=0.1.0
+
+#Change to fit needs
+.PHONY: lib driver clean
+
+lib: $(OBJECTS)
+	$(CC) $(LDFLAGS) -shared -Wl,-soname,$(TARGET) -o $(TARGET).$(VERSION) $(OBJECTS) $(LIBS) -lc
+	ln -s $(TARGET).$(VERSION) $(TARGET)
+
+driver: lib driver.o
+	$(CC) $(CFLAGS) -o driver driver.o $(LDFLAGS)
+
+.cpp.o:
+	$(CC) $(CFLAGS) -fPIC -c $*.cpp -o $*.o
+.c.o:
+	$(CC) $(CFLAGS) -fPIC -c $*.c -o $*.o
+
+clean:
+	rm -rf driver driver.o $(TARGET) $(TARGET).$(VERSION) $(OBJECTS)
+

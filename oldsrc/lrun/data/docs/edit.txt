@@ -1,0 +1,208 @@
+===================================================
+                 Lore And Lutes
+                 By: Andy Stone
+                 Documentation
+===================================================
+                The L&L Editor
+===================================================
+  Welcome to the Lore And Lutes editor
+documentation. Throughout the editor (in almost
+every screen) press the 'H' or 'F1' key and a
+short piece o' documentation will present itself
+to help you along the portion of the editor. Be
+aware though that the documentation provided
+within the Lore And Lutes editor is meant more to
+provide you with quick help. If you really want to
+learn how to use the Lore And Lutes editor then
+you should read the HTML help.
+
+<Blaa blaa Blaa>
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Main Editor Keys (Sorted by Category)
+- - - - - - - - - - - - - - - - - - - - - - - - -
+--[Editor I/O]--
+  Save Game       s
+  Load  Game      l
+  New Game        n
+  Exit            esc / q
+  About L&L       F12 / a
+  Help!           F1  / h
+
+--[Cursor Movement] --
+  Move Cursor North               Up
+  Move  Cursor South              Down
+  Move  Cursor West               Left
+  Move  Cursor East               Right
+  Move  Cursor NorthWest          7 / home
+  Move  Cursor NorthEast          9 / PgUp
+  Move  Cursor SouthWest          1 / End
+  Move  Cursor SouthEast          3 / PgDn
+  Move Cursor a Screen North      Ctrl + Up
+  Move Cursor a Screen South      Ctrl + Down
+  Move Cursor a Screen West       Ctrl + Left
+  Move Cursor a Screen East       Ctrl + Right
+  Move Cursor a Screen NorthWest  Ctrl + (7 / home)
+  Move Cursor a Screen NorthEast  Ctrl + (9 / PgUp)
+  Move Cursor a Screen SouthWest  Ctrl + (1 / End)
+  Move Cursor a Screen SouthEast  Ctrl + (3 / PgDn)
+  Speed Cursor Up                 +
+  Slow Cursor Down                -
+  Move Cursor To Location         ~
+  Zoom out (gem view)             g
+
+--[Terrain Handeling]--
+  Plot                   Space
+  Plot Square 3x3        1 
+  Plot Square 5x5        2
+  Plot Square 7x7        3
+  Plot Square 9x9        4
+  Plot Square 11x11      5
+  Plot Square 13x13      6
+  Plot Square 15x15      7
+  Plot Square 17x17      8
+  Plot Square 19x19      9
+  Draw Line              l
+  Put pen down/up        p
+  Fill                   x
+  Choose / Edit Terrains Tab
+  Set Border             b
+  Edit Terrain Set(s)    F2
+  Edit Vehicle Set       F3
+
+--[Player Handeling]--
+  Put Default Player Location   z
+
+--[Map Handeling]--
+  Switch Map/Edit Set       m
+  Current Map Information   i
+  Go Next Map               >
+  Go Previous Map           <
+  Transfer Map              t
+  Clear Map                 c
+  Test Map                  y
+  
+--[Scripted Units]--
+  Edit Selected Instance        e / enter
+  Edit Instance verbal Script   v
+  Plot Instance Of Class        o
+  Edit Local  Classes           F7
+  Edit Global Classes           F8
+  Edit Global Script            F8
+  Remove Instance From Map      del/backspace
+  Trnsfr glbl classes from game F10
+  Trnsfr lcl classes from map   F11
+  Previous Unit Level   ;
+  Next Unit Level     '
+
+
+--[Path Handeling]--
+  Edit Routes (paths)               r
+  Edit selected unit's daily path   d
+
+--[Monster Handeling]--
+  Plot Monster (foe)        f
+  Edit Monster Set(s)       F6
+  Remove Monster From Map   del/backspace
+
+--[Item Handeling]--
+  Plot Item/Weapon/Armor    w
+  Edit Battle Item Set(s)   F4
+  Edit Scripted Item Set(s) F5
+
+--[Game Editting]--
+  Universe/Game Information u
+
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Main Editor Keys (Sorted by Keys)
+- - - - - - - - - - - - - - - - - - - - - - - - -
+esc Quit
+F1  Help!
+F2  Edit Terrain Set(s)
+F3  Edit Vehicle Set
+F4  Edit Battle   Item Set
+F5  Edit Scripted Item Set
+F6  Edit Monster Set
+F7  Edit Local Classes
+F8  Edit Global Classes
+F9  Edit Global Script
+F10 Transfer Global Classes From Game
+F11 Transfer Local  Classes From Map
+F12 About L&L
+~ Move cursor to location
+1 Plot Square 1x1 radius from player
+2 Plot Square 2x2 radius from player
+3 Plot Square 3x3 radius from player
+4 Plot Square 4x4 radius from player
+5 Plot Square 5x5 radius from player
+6 Plot Square 6x6 radius from player
+7 Plot Square 7x7 radius from player
+8 Plot Square 8x8 radius from player
+9 Plot Square 9x9 radius from player
+0
+- Slow Cursor Down
++ Speed Cursor Up
+bkspc   Delete selected unit/item/default player 
+        postiion
+a About L&L
+b Set map border (at cursor location)
+c Clear map
+d Edit selected unit's daily path/route
+e Edit instance of selected script
+f Plot foe
+g Gem View
+h Help
+i Edit current map info
+j
+k
+l Draw line
+m Switch Map / Edit map set
+n New Game
+o Plot Instance of Scripted Unit Class
+p Put pen up/down
+q Quit
+r Edit routes (paths)
+s Save Game
+t Transfer Map
+u Universe/Game Information
+v Edit verbal (talk) script
+w Plot item
+x Fill
+y Test map
+z Set to default player location
+tab Choose terrain / edit current set
+[ Previous Terrain Level
+] Next Terrain Level
+\
+return  Edit instance of selected script
+; Previous Unit Level
+' Next Unit Level
+< Goto Previous Map
+> Goto Next Map
+/
+space Plot
+NUM 7 Cursor NW
+UP    Cursor N
+NUM 9 Cursor NE
+LEFT  Cursor W
+RIGHT Cursor E
+NUM 1 Cursor SW
+DOWN  Cursor S
+NUM 3 Cursor SE
+del   Delete selected unit/item/default player
+      postiion
+
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Lore And Lutes Documentation Files
+- - - - - - - - - - - - - - - - - - - - - - - - -
+You can get to any of the HTML docs by openning
+the index.html file in any web browsing and
+clicking on the appropriate link. You should be
+able to get to any .txt doc by navigating in
+the Lore And Lutes editor which the doc deals
+with (e.g. for a doc about object editting open
+up the object editor.) and pressing F1. You can
+also manually access any of these docs if you
+want to too. They are (. = your L&L dir):
+
+./docs/edit.txt		(This doc)
+./docs/about.txt	(Info about L&L)

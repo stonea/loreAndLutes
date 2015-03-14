@@ -1,0 +1,12 @@
+@Test
+%int "iVariable"
+
+:Start
+  #Writeln "Testing Object"
+  :Loop
+    #Writeln "Loop 5 times..."
+    #IntInc [iVariable]
+  #IfIntLT [iVariable] 5
+    #Goto "Loop"
+#Return
+^	//End

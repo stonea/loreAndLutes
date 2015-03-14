@@ -1,0 +1,53 @@
+.obj 0
+6
+48 52
+"./games/lore/graphics/objects/candles.png"
+"BLANK"
+"CANDLES"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 52 52
+"./games/lore/graphics/objects/candles.png"
+"BLANK"
+"CANDLES0"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 50 52
+"./games/lore/graphics/objects/candles.png"
+"BLANK"
+"CANDLES1"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 50 49
+"./games/lore/graphics/objects/candles.png"
+"BLANK"
+"CANDLES10"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 54 47
+"./games/lore/graphics/objects/fireplace.png"
+"BLANK"
+"FIREPLACE"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 46 47
+"./games/lore/graphics/objects/fireplace.png"
+"BLANK"
+"FIREPLACE0"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 
+
+0

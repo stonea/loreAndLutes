@@ -1,0 +1,37 @@
+# Project: textedit
+# Makefile created by Dev-C++ 4.9.7.0
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = driver.o text.o texteditor.o $(RES)
+LIBS =  -L"e:/programming/c++/dev/lib" -L"E:/cygwin/home/astone42/lorecvs/lib" -lmingw32 -lSDLmain -lSDL -lSDL_Image -lSDL_Mixer -lASFC -lLOOP -lTextEdit -mwindows -lphysfs
+INCS =  -I"e:/programming/c++/dev/include"  -I"e:/programming/c++/dev/include"  -I"E:/cygwin/home/astone42/lorecvs/src" 
+BIN  = textedit.dll
+CXXFLAGS = $(INCS) 
+CFLAGS = $(INCS) 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before textedit.dll all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+DLLWRAP=dllwrap.exe --export-all-symbols
+DEFFILE=libtextedit.def
+STATICLIB=libtextedit.a
+
+$(BIN): $(OBJ)
+	$(DLLWRAP) --output-def $(DEFFILE) --driver-name c++ --implib $(STATICLIB) $(OBJ) $(LIBS) -o $(BIN)
+
+driver.o: driver.cpp
+	$(CPP) -c driver.cpp -o driver.o $(CXXFLAGS)
+
+text.o: text.cpp
+	$(CPP) -c text.cpp -o text.o $(CXXFLAGS)
+
+texteditor.o: texteditor.cpp
+	$(CPP) -c texteditor.cpp -o texteditor.o $(CXXFLAGS)

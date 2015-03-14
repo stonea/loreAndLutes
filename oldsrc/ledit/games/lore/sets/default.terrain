@@ -1,0 +1,255 @@
+.terrain 0
+253
+"./games/lore/graphics/grass.png" "Grass" 36 106 34 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/grasstoyellow1.png" "Grass" 61 107 33 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/grasstoyellow2.png" "Brush" 82 107 33 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/grasstoyellow3.png" "Brush" 126 131 44 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/grasstoyellow4.png" "Brush" 148 142 48 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/yellowgrass.png" "Brush" 175 179 47 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/smiles.png" "Lighthouse" 0 255 0 5 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/roadns.png" "Road" 65 25 0 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/roadwe.png" "The Void" 65 25 0 2 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/roadcurvequad1.png" "The Void" 65 25 0 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/roadcurvequad2.png" "The Void" 65 25 0 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/roadcurvequad3.png" "The Void" 65 25 0 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/roadcurvequad4.png" "The Void" 65 25 0 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/water.png" "Water" 0 0 128 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/grassbeachquad1.png" "Beach" 36 75 54 0 1 0 0 1 1 0 0 1 1 0 0 0 0 
+"./games/lore/graphics/grassbeachquad2.png" "Beach" 36 75 54 0 1 0 0 1 0 1 0 1 0 1 0 0 0 
+"./games/lore/graphics/grassbeachquad3.png" "Beach" 36 75 54 0 1 0 1 0 0 1 1 0 0 1 0 0 0 
+"./games/lore/graphics/grassbeachquad4.png" "Beach" 36 75 54 0 1 0 1 0 1 0 1 0 1 0 0 0 0 
+"./games/lore/graphics/peninsulanorth1.png" "Beach" 36 75 54 0 1 0 1 0 0 0 1 0 0 0 0 0 0 
+"./games/lore/graphics/peninsulasouth1.png" "Beach" 36 75 54 0 1 0 0 1 0 0 0 1 0 0 0 0 0 
+"./games/lore/graphics/peninsulawest1.png" "Beach" 36 75 54 0 1 0 0 0 1 0 0 0 1 0 0 0 0 
+"./games/lore/graphics/peninsulaeast1.png" "Beach" 36 75 54 0 1 0 0 0 0 1 0 0 0 1 0 0 0 
+"./games/lore/graphics/baynorth1.png" "Bay" 0 0 128 0 0 
+"./games/lore/graphics/baysouth1.png" "Bay" 0 0 128 0 0 
+"./games/lore/graphics/baywest1.png" "Bay" 0 0 128 0 0 
+"./games/lore/graphics/bayeast1.png" "Bay" 0 0 128 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/graybricks.png" "Brick floor" 100 100 100 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/bluebricks.png" "Brick floor" 100 100 100 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/goldbricks.png" "Brick floor" 100 100 100 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/graybricks.png" "Brick floor" 100 100 100 0 1 0 1 1 1 1 1 1 1 1 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/brickwall1.png" "brick wall" 0 0 0 1 0 
+"./games/lore/graphics/brickwall2.png" "Brick wall" 0 0 0 1 0 
+"./games/lore/graphics/stonewall1.png" "Stone wall" 0 0 0 1 0 
+"./games/lore/graphics/stonewall2.png" "Stone wall" 0 0 0 1 0 
+"./games/lore/graphics/stonewalldoor.png" "Door" 100 100 100 1 1 0 1 1 0 0 1 1 0 0 0 0 0 
+"./games/lore/graphics/brickwalldoor.png" "Door" 100 100 100 1 1 0 1 1 0 0 1 1 0 0 0 0 0 
+"./games/lore/graphics/stonewall2door.png" "Door" 0 255 0 1 1 0 0 0 1 1 0 0 1 1 0 0 0 
+"./games/lore/graphics/stonewall2door2.png" "Door" 0 255 0 1 1 0 0 0 1 1 0 0 1 1 0 0 0 
+"./games/lore/graphics/brickwallwindow.png" "Window" 0 255 0 0 0 
+"./games/lore/graphics/brickwall2door.png" "The Void" 0 255 0 1 1 0 0 0 1 1 0 0 1 1 0 0 0 
+"./games/lore/graphics/brickwall2door2.png" "The Void" 0 255 0 1 1 0 0 0 1 1 0 0 1 1 0 0 0 
+"./games/lore/graphics/table1.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/tablle2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/table3.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/liltable.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/error2.png" "The Void" 0 255 0 0 0 
+"./games/lore/graphics/grass.png" "Grass" 255 0 0 0 1 0 1 1 1 1 1 1 1 1 0 0 0 

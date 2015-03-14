@@ -1,0 +1,101 @@
+.obj 0
+12
+38 55
+"./games/lore/graphics//objects/candles.png"
+"BLANK"
+"CANDLES"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 38 59
+"./games/lore/graphics//objects/candles.png"
+"BLANK"
+"CANDLES0"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 39 63
+"./games/lore/graphics//objects/candles.png"
+"BLANK"
+"CANDLES1"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 41 63
+"./games/lore/graphics//objects/candles.png"
+"BLANK"
+"CANDLES2"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 43 63
+"./games/lore/graphics//objects/candles.png"
+"BLANK"
+"CANDLES3"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 44 59
+"./games/lore/graphics//objects/candles.png"
+"BLANK"
+"CANDLES4"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 44 55
+"./games/lore/graphics//objects/candles.png"
+"BLANK"
+"CANDLES5"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 31 68
+"./games/lore/graphics//objects/candles.png"
+"BLANK"
+"CANDLES6"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 31 67
+"./games/lore/graphics/error.png"
+"QUAFFTON"
+"QUAFFTON"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 30 79
+"./games/lore/graphics/error.png"
+"JOSEPH"
+"JOSEPH"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 18 28
+"./games/lore/graphics/error.png"
+"TRILLIA"
+"TRILLIA"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 18 30
+"./games/lore/graphics/error.png"
+"HARRIS"
+"HARRIS"
+0 1 2 3
+4 5 6 7
+8 0
+
+0 0 0 
+
+0

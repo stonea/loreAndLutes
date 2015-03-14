@@ -1,0 +1,244 @@
+@Quaffton
+%int "DoneTalking"
+
+:Talk
+  #IntEqu [DoneTalking] 0
+
+  #Write   "You see your old, battle scarred, "
+  #Writeln "neighbor:"
+  #Endl
+  #Writeln "Ah 'tis thee! What dost thou want?"
+
+  :GetResponse
+    #Endl
+    #Writeln "You Respond"
+    #Write   ">"
+    #GosubTalkResponse
+    #IfIntEqu [DoneTalking] 0
+      #Goto "GetResponse"
+#Return
+
+:Talk_What
+  #Writeln "Hmm... I fail to understand."
+#Return
+
+:Talk_Name
+  #Write "Why I am Quaffton! Hast "
+  #Write "thou traveled so much as to lose "
+  #Writeln "thine mind?!"
+#Return
+
+:Talk_Quaff
+  #Write "A name passed to me by my great "
+  #Writeln "grandfather."
+#Return
+
+:Talk_Great
+:Talk_Grand
+:Talk_Passe
+:Talk_Yallt
+  #Write "Indeed. He lives in Yallten. If thine "
+  #Write "travels bring thee near there seek him "
+  #Writeln "out, sureley he'll aid thee."
+#Return
+
+:Talk_Job
+:Talk_Work
+  #Write "These days I quitly dwell here, but "
+  #Write "as thou dost sureley know I once "
+  #Writeln "traveled these vast lands."
+#Return
+
+:Talk_Here
+:Talk_Dwell
+  #Writeln "In Lockanburg."
+#Return
+
+:Locak
+  #Write "It's not a bad place. Not an "
+  #Write "interesting place either."
+#Return
+
+:Talk_Trave
+:Talk_Once
+:Talk_Lands
+:Talk_Vast
+  #Write "Many years ago I traveled all around "
+  #Write "these vast Landanian lands. I found "
+  #Write "Ways to earn a good deal of money "
+  #Writeln "doing it too."
+#Return
+
+:Talk_Landa
+:Talk_Money
+  #Write "Indeed, I'd find ways to profit "
+  #Write "from travellers less fortunate than I. "
+  #Write "If thou art looking to get rich quick "
+  #Writeln "though. I'd suggest the caves."
+#Return
+
+:Talk_Less
+:Talk_Fortu
+  #Write "Let's just say if travelers disobeyed "
+  #Write "my rules I would find ways to make them "
+  #Writeln "pay."
+#Return
+
+:Talk_Rich
+:Talk_Quick
+:Talk_Cave
+:Talk_Caves
+:Talk_Treas
+:Talk_Wealt
+:Talk_Spect
+  #Write "Indeed. They're nothing spectacular but "
+  #Write "a good search may reveal some treasure. "
+  #Writeln "The caves lie north of here."
+#Return
+
+:Talk_Bye
+  #Write "Fair thee well. Let me know of thine "
+  #Writeln "travels."
+  #IntEqu [DoneTalking] 1
+#Return
+
+:Look
+  #Writeln "It's just Quaffton."
+#Return
+^
+
+@Joseph
+
+%int "DoneTalking"
+
+:Talk
+  #IntEqu [DoneTalking] 0
+
+  #Write "You see a rather large farmer, he is "
+  #Write "covered in bruises but he has a dumb "
+  #Writeln "smile across his face: "
+  #Endl
+  #Writeln "And what can I do for thee?"
+
+  :GetResponse
+    #Endl
+    #Writeln "You Respond"
+    #Write    ">"
+    #GosubTalkResponse
+    #IfIntEqu [DoneTalking] 0
+      #Goto "GetResponse"
+#Return
+
+:Talk_What
+  #Writeln "Huh?"
+#Return
+
+:Talk_Job
+:Talk_Work
+  #Writeln "Why I farm of course!"
+#Return
+
+:Talk_Farm
+  #Write "Yes, 'tis the main profession around "
+  #Writeln "these parts 'ye know."
+#Return
+
+:Talk_Main
+:Talk_Profe
+  #Write "Indeed, the world needs plenty of "
+  #Writeln "farmers 'ye know."
+#Return
+
+:Talk_Parts
+  #Write "Landania. I suppose farmers are "
+  #Write "needed in most places around the world "
+  #Writeln "though. "
+#Return
+
+:Talk_Place
+:Talk_Most
+:Talk_World
+  #Writeln "Perhaps not in Trisk."
+#Return
+
+:Talk_Trisk
+:Talk_Magic
+:Talk_Belie
+  #Write "Indeed, tis' said they use magic "
+  #Write "to create food there! I find it hard "
+  #Writeln "to believe though."
+#Return
+
+:Talk_Food
+  #Writeln "Thats what I farm."
+#Return
+
+:Talk_Name
+:Talk_Josep
+  #Writeln "I am Joseph."
+#Return
+
+:Talk_Bye
+  #Writeln "Bye."
+  #IntEqu [DoneTalking] 1
+#Return
+
+^
+
+@Trillia
+@Trillia
+>Talker
+
+:Talk_Name
+  #Writeln "I am Trillia."
+#Return
+
+:Talk_Job
+:Talk_Work
+  #Write "Me and my husband help this land "
+  #Writeln "grow."
+#Return
+
+:Talk_Husba
+:Talk_Harri
+  #Write "Yes, Harris. He's a nice gentlemen but "
+  #Writeln "drinks too much."
+#Return
+
+:Talk_Drink
+  #Writeln "I wish he wouldn't."
+#Return
+
+:Talk_Land
+:Talk_Grow
+  #Writeln "Our farm land that is."
+#Return
+
+:Talk_Our
+  #Writeln "Me and Harris."
+#Return
+^
+
+@Harris
+@Harris
+>Talker
+
+:Talk_Name
+  #Writeln "Me, why, Harris name art me!"
+#Return
+
+:Talk_Job
+:Talk_Work
+  #Writeln "Farm... And Drink!"
+#Return
+
+:Talk_Farm
+  #Writeln "And Drink!"
+#Return
+
+:Talk_Drink
+  #Writeln "And farm!"
+#Return
+
+^
+

@@ -1,0 +1,29 @@
+#Makefile for textedit on Linux
+
+#Include some global vars and such
+include ../Makefile.linux.deps
+
+include .objects
+
+#Please do not edit these options
+TARGET=libtextedit.so
+VERSION=0.1.0
+
+#Change to fit needs
+lib: $(OBJECTS)
+	$(CC) $(LDFLAGS) -shared -Wl,-soname,$(TARGET) -o $(TARGET).$(VERSION) $(OBJECTS) $(LIBS) -lc && \
+	ln -s $(TARGET).$(VERSION) $(TARGET)
+
+driver: $(TARGET) driver.o
+	$(CC) $(CFLAGS) -o driver driver.o $(LDFLAGS) -lasfc -ltextedit
+
+.cpp.o:
+	$(CC) $(CFLAGS) -fPIC -c $*.cpp -o $*.o
+.c.o:
+	$(CC) $(CFLAGS) -fPIC -c $*.c -o $*.o
+	
+.PHONY: clean
+
+clean:
+	rm -rf $(TARGET) $(TARGET).$(VERSION) $(OBJECTS)
+

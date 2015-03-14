@@ -1,0 +1,88 @@
+# Project: loop
+# Makefile created by Dev-C++ 4.9.7.0
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = variables.o class.o code.o command.o info.o instance.o label.o parameters.o parammap.o driver.o offset.o callback.o reader.o commandlibrary.o instanceset.o callbacklibrary.o interpreter.o classlibrary.o loop.o looplib_standard.o $(RES)
+LIBS =  -L"D:/programming/c++/dev/lib" -L"D:/cygwin/home/astone42/lorecvs/lib" -lmingw32 -lSDLmain -lSDL -lSDL_Image -lASFC -mwindows_@@_
+INCS =  -I"D:/programming/c++/dev/include"  -I"D:/programming/c++/dev/include"  -I"D:/cygwin/home/astone42/lorecvs/src" 
+BIN  = loop.dll
+CXXFLAGS = $(INCS) 
+CFLAGS = $(INCS) 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before loop.dll all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+DLLWRAP=dllwrap.exe --export-all-symbols
+DEFFILE=libloop.def
+STATICLIB=libloop.a
+
+$(BIN): $(OBJ)
+	$(DLLWRAP) --output-def $(DEFFILE) --driver-name c++ --implib $(STATICLIB) $(OBJ) $(LIBS) -o $(BIN)
+
+variables.o: variables.cpp
+	$(CPP) -c variables.cpp -o variables.o $(CXXFLAGS)
+
+class.o: class.cpp
+	$(CPP) -c class.cpp -o class.o $(CXXFLAGS)
+
+code.o: code.cpp
+	$(CPP) -c code.cpp -o code.o $(CXXFLAGS)
+
+command.o: command.cpp
+	$(CPP) -c command.cpp -o command.o $(CXXFLAGS)
+
+info.o: info.cpp
+	$(CPP) -c info.cpp -o info.o $(CXXFLAGS)
+
+instance.o: instance.cpp
+	$(CPP) -c instance.cpp -o instance.o $(CXXFLAGS)
+
+label.o: label.cpp
+	$(CPP) -c label.cpp -o label.o $(CXXFLAGS)
+
+parameters.o: parameters.cpp
+	$(CPP) -c parameters.cpp -o parameters.o $(CXXFLAGS)
+
+parammap.o: parammap.cpp
+	$(CPP) -c parammap.cpp -o parammap.o $(CXXFLAGS)
+
+driver.o: driver.cpp
+	$(CPP) -c driver.cpp -o driver.o $(CXXFLAGS)
+
+offset.o: offset.cpp
+	$(CPP) -c offset.cpp -o offset.o $(CXXFLAGS)
+
+callback.o: callback.cpp
+	$(CPP) -c callback.cpp -o callback.o $(CXXFLAGS)
+
+reader.o: reader.cpp
+	$(CPP) -c reader.cpp -o reader.o $(CXXFLAGS)
+
+commandlibrary.o: commandlibrary.cpp
+	$(CPP) -c commandlibrary.cpp -o commandlibrary.o $(CXXFLAGS)
+
+instanceset.o: instanceset.cpp
+	$(CPP) -c instanceset.cpp -o instanceset.o $(CXXFLAGS)
+
+callbacklibrary.o: callbacklibrary.cpp
+	$(CPP) -c callbacklibrary.cpp -o callbacklibrary.o $(CXXFLAGS)
+
+interpreter.o: interpreter.cpp
+	$(CPP) -c interpreter.cpp -o interpreter.o $(CXXFLAGS)
+
+classlibrary.o: classlibrary.cpp
+	$(CPP) -c classlibrary.cpp -o classlibrary.o $(CXXFLAGS)
+
+loop.o: loop.cpp
+	$(CPP) -c loop.cpp -o loop.o $(CXXFLAGS)
+
+looplib_standard.o: looplib_standard.cpp
+	$(CPP) -c looplib_standard.cpp -o looplib_standard.o $(CXXFLAGS)

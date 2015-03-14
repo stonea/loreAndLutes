@@ -1,0 +1,97 @@
+/* Global Class: Sign
+   By: Andy Stone
+
+   Displays the text "text" in the talking console
+   when looked at.
+*/
+
+@Sign
+
+$string "text"
+
+:Look
+  #Writeln [text]
+#return
+
+:Misc
+  #Writeln "Glbl Misc found"
+#Return
+^
+
+/* Global Class: Blank
+   By: Andy Stone
+
+   A completley useless class. Does absolutley
+   nothing but overload look and talk with default
+   messages.
+*/
+
+@Blank
+
+:Talk
+  #Writeln "Can't talk there"
+#Return
+
+:Look
+  #Writeln "Can't look there"
+#Return
+^
+
+/* Global Class: Scroll
+   By: Andy Stone
+
+   Displays scrolling text in the main console
+   when an instance is looked at. Set Message to
+   the text you want to be displayed.
+*/
+
+@Scroll
+$string "Message"
+
+:Look
+  #ClearScroll
+  #ScrollOn
+  #Writeln [Message]
+  #ViewScroll
+  #ScrollOff
+#Return
+
+:Talk
+  #Writeln "Can't talk there."
+#Return
+^
+
+@Talker
+$int "DoneTalking"
+$string "Greetings"
+$string "Huh"
+$string "Bye"
+$string "Look"
+
+:Talk
+  #IntEqu [DoneTalking] 0
+  
+  #Writeln [Greetings]
+
+  :StillTalking
+    #Writeln "You respond:"
+    #Write   ">"
+    #GosubTalkResponse
+    #IfIntEqu [DoneTalking] 0
+       #Goto "StillTalking"
+#Return
+
+:Talk_What
+  #Writeln [Huh]
+#Return
+
+:Talk_Bye
+  #Writeln [Bye]
+  #IntEqu [DoneTalking] 1
+#Return
+
+:Look
+  #Writeln [Look]
+#Return
+^
+

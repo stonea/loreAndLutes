@@ -1,0 +1,12 @@
+/*======================================
+	Testing LOOP Class. Oh yeah.
+	Its chock full of Object
+	Oriented goodness! 8-)
+======================================*/
+@Test
+#Cout "If you work that would be sooooo cool!"
+
+//Loop forever
+:InfiniteLoop
+#Goto "InfiniteLoop"
+^	//End

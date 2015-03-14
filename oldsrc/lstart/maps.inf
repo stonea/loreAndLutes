@@ -1,0 +1,622 @@
+.classset 0
+0
+OOOOOOOOOOOOOOOOOOOOOO..............................................................................OOOOOOOOOOOOOOOOOOOOOO..............................................................................OOOOOOOOOOOOOOOOOOOOOO..............................................................................OOOOOOOOOOOOOOOOOOOOOO..............................................................................OOOOOOOOOOOOOOOOOOOOOO..............................................................................OOOOOOOOOOOOOOOOOOOOOO.......................................................................................................................................................................................X..........X.......................................................................................X.X........X.X.....................................................................................X.X.X......X.X.X...................................................................................X.X.X.X....X.X.X.X................................................................................OOOOOOOOOOOOOOOOOOOOOO..............................................................................OOOOOOOOOOOOOOOOOOOOOO..............................................................................OOOOOOOOOOOOOOOOOOOOOO..............................................................................OOOOOOOOOOO...OOOOO..O..............................................................................OOOOOOOOOOO...OOOOO.................................................................................OOOOOOOOOOO...OOOOO............................................................................................OOO..OOOOOO...................................................................................X.....OO...X.......................................................................................X.X....O...X.X.....................................................................................X.X.X......X.X.X...................................................................................X.X.X.X....X.X.X.X................................................................................OOOOOOOOOOO.........................................................................................OOOOOOOOOOO.........................................................................................OOOOOOO.OOO.........................................................................................OOOOOO..OOO.........................................................................................OOOOOO...OO.........................................................................................OOOOO...OOO.........................................................................................OO.....OOOO..............................................................................................X.OOOO.............................................................................................X.X..OO............................................................................................X.X.X..............................................................................................X.X.X.X......................................................................................................OOOOOOOOOOO.........................................................................................OOOOOOOOOOO.........................................................................................OOOOOOOOOOO.........................................................................................OOOOOOOOOOO.........................................................................................OOOOOOOOO............................................................................................OOOOOOO..............................................................................................O......................................................................................................X..................................................................................................X.X................................................................................................X.X.X..............................................................................................X.X.X.X................................................................................OOOOOOOOOOOOOOOOOOOOOO..............................................................................OOOOOOOOOOOOOOOOOOOOOO.......................................................................OOOOO..OOOOOOOOOOOOOOOOOOOOOO..................................................................X....OOOOOO.OOOOOOOOOOOOOOOOOOOOOO...................................................................X...OOOOOO.OOOOOOOOOOOOOOOOOOOOOO..................................................................X.X..OOOOOO.OOOOOOOOOOOOOOOOOOOOOO...................................................................X.X.OOOOOO.........................................................................................X.X..OOOOOO......X..........X........................................................................X...OOOOOO.....X.X........X.X......................................................................X....OOOOOO....X.X.X......X.X.X..........................................................................OOOOO....X.X.X.X....X.X.X.X................................................................................OOOOOOOOOOO................................................................................OOOOOOOO.OOOOOOOOOOO.................................................................................OOOOOOO.OOOOOOOOOOO.............................................................................X....OOOOOO.OOOOOOOOOOO..............................................................................X....OOOOO.OOOOOOOOOOO.............................................................................X.X...OOOOO.OOOOOOOOOOO..............................................................................X.X..OOOOO.........................................................................................X.X...OOOOO......X...................................................................................X....OOOOO.....X.X.................................................................................X....OOOOOO....X.X.X....................................................................................OOOOOOO...X.X.X.X..................................................................................OOOOOOOO.OOOOOOOOOOO.............................................................................OOOOOOOOOOO.OOOOOOOOOOO.............................................................................OOOOOOOOOOO.OOO..OOOOOO.............................................................................OOOOOOOOOOO..OOOOOOOOO..............................................................................OOOOOOOOOOO....OOOOOO...............................................................................OOOOOOOOOOO.OO..OOO...O.........................................................................................OO........O..............................................................................................X.......................................................................................X..........X.X.....................................................................................X.X........X.X.X...................................................................................X.X.X......X.X.X.X.................................................................................X.X.X.X...OOOOOOOOOOO.........................................................................................OOOOOOOO.OO..............................................................................OOOOO......OOOOOOOOOOO.............................................................................OOOOOO....X.OO.OOOOOOOO.............................................................................OOOOOO...X..OOOOOOOOOOO.............................................................................OOOOOO..X.X.OOOOOOOO.OO.............................................................................OOOOOO.X.X..........................................................................................OOOOOO..X.X......X..................................................................................OOOOOO...X......X.X..................................................................................OOOOO....X....X.X.X.................................................................................OOOOO........X.X.X.X...........................................................................................OOOOOOOOOOO.................................................................................OOO.....OOOOOOOOOOO...............................................................................OOOOOOO...OOOOOOOOOOO..............................................................................OOOOOOOOO..OOOOOOOOOOO..............................................................................OOOOOOOOO..OOO..OOOOOO.................................................................................OOO.....O......OOO...................................................................................................................................................................................................X.......................................................................................X..........X.X.....................................................................................X.X........X.X.X...................................................................................X.X.X......X.X.X.X.................................................................................X.X.X.X.......................................................................................................0
+0
+0
+.map 0
+"Ft. Hyvinton"
+""
+"/Sample Folder/default.terrain"
+"DEFAULT"
+30
+0 0
+11 11 38 38 0 0 10 52 100 100
+-1
+0
+-1
+-1
+0 99 0 99
+1 4 1 1
+0 0 0 0
+50 50
+"./data/gui/editor/error.png"
+|  ` P ` O ` O ` O 	` Y` N  ` N  ` O ` O  ` Y` N Y Y Yjd ji Od di Ndl kd N jd T jdl jd N	 jdl d Njdl d Ndl d N Y Y   Y  Y  Y  Y  ` b ÿ ", N, N, N, N,	fe N,efl O,kef kdjd P, kdl kdl P, Y, Y, d` B:9	: ` B9,	9  	` B,  ` B,  ` B,  ` B,  ` B, 	 ` B,   ` B, ` B:,	:   ` B9  M  Mm  M,m  M,  M,m  M,  M,m  M,  M,m  Mm  M  M`  M`  M` 	 M`  M`  M9`9`9`9  M`  M`  M`  M`  M9`9 M M:9	: M^M M9`	9 M M` M^M M` M M` M_M M` M_M M` M^M M` M M:`
+ M M:`	: M M9  M:9`9:  M:9`9:  M:`	: ON M:`	: OMN M8,	8 OMNOM M8G,G8 M M8,	8 M M8,	8 M M8,	8 M M8G,G8 M M7p,p7 e.obj 0 ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  ! 0 @Talker
+$string "GreetingMsg"
+$string "HuhMsg"
+$string "ByeMsg"
+%int    "StillTalking"
+
+:Talk
+  #IfOnTerrainGroup "sleep"
+  #Begin
+    #Say "Zzzzz"
+    #Endl
+    #Endl
+    #Return
+  #End
+
+  #IntEqu [StillTalking] 1
+
+  #Writeln [GreetingMsg]
+
+  :Loop
+    #Endl
+    #Writeln "You Respond:"
+    #Write ">"
+    #GosubTalkResponse
+  #IfIntEqu [StillTalking] 1
+    #Goto "Loop"
+
+#Return
+
+:Talk_What
+  #Say [HuhMsg]
+  #Endl
+#Return
+
+:Talk_Bye
+  #Say [ByeMsg]
+  #Endl
+  #Endl
+  #IntEqu [StillTalking] 0
+#Return
+^
+
+@Candles
+
+:Look
+  #Writeln "You see candles."
+#Return
+
+:Talk
+  #CallNorth "talk"
+  #CallSouth "talk"
+#Return
+^
+
+@Sign
+$string "SignText"
+
+:Look
+#ClearScroll
+#ScrollOn
+  #SetFont 0
+  #Write "----------------------------------------------------"
+  #Write "                  Written on the sign:              "
+  #Write "----------------------------------------------------"
+  #Write [SignText]
+#ViewScroll
+#ScrollOff
+#Return
+
+^
+
+@Pushable
+
+:Push
+  #push
+#Return
+
+
+^
+
+@BattleRoom
+$int "BattleRoom"
+$int "Monster"
+
+:PlayerOn
+  #Endl
+  #Endl
+  #Write "Entering battle Room"
+  #Endl
+  #Endl
+  #Battle [Monster] [BattleRoom]
+#Return
+
+^
+
+@TalkPinger
+
+:Talk
+  #CallNorth "talk"
+  #CallSouth "talk"
+#Return
+
+^
+
+@LockedDoor
+
+:Look
+  #Writeln "You see a locked door"
+  #IfAskYN "Jimmy lock?"
+  #Begin
+    #TakeScriptedItem 5 1 "TooPoor"
+    #Say "Unlocked!"
+    #Die
+    #Return
+  #End
+  #Endl
+#Return
+
+:TooPoor
+  #Writeln "You have no keys!"
+  #Endl
+#Return
+
+^
+
+@Bed
+%int "iSleepFor"
+
+:Look
+  #Writeln "Its a bed."
+#Return
+
+:Onkey_c
+  #Endl
+  #Writeln "Rest on bed."
+  #AskInt [iSleepFor] "Sleep for how many hours?"
+  #IfIntGT [iSleepFor] 24
+    #IntEqu [iSleepFor] 24
+  #IfIntLT [iSleepFor] 0
+    #IntEqu [iSleepFor] 0
+  #Endl
+  #Say "Resting for:"
+  #SayInt [iSleepFor]
+  #Say "Hours."
+  #Endl
+  #Endl
+  #DoEffect 3
+  #Sleep [iSleepFor] 10 7
+#Return
+^
+
+@Tomb
+$string "message"
+
+:Look
+  #Say "Written on the tomb:"
+  #Endl
+  #Endl
+  #SetFont 4
+  #Write [message]
+  #SetFont 0
+  #Endl
+  #Endl
+#Return
+
+^
+
+@Fountain
+
+^
+
+@Corpse
+
+:Look
+  #Say "You see a corpse"
+#Return
+^
+
+.classset 0
+11
+"Talker" 0 41 
+"Candles" 42 53 
+"Sign" 54 70 
+"Pushable" 71 79 
+"BattleRoom" 80 94 
+"TalkPinger" 95 103 
+"LockedDoor" 104 124 
+"Bed" 125 150 
+"Tomb" 151 166 
+"Fountain" 167 170 
+"Corpse" 171 177 
+@glscript
+%int "ti1"
+%int "ti2"
+%string "ts1"
+%string "ts2"
+
+:item_watch
+  #Endl
+  #GetHour [ti1]
+  #GetMinute [ti2]
+  #IntToStr [ts1] [ti1]
+  #IntToStr [ts2] [ti2]
+  #Endl
+  #Writeln "Current time:"
+  #Write [ts1]
+  #Write ":"
+  #Writeln [ts2]
+  #Endl
+#Return
+
+:item_wine
+  #Writeln "You don't want to drink that."
+  #Endl
+#Return
+
+:item_none
+  #Writeln "Nothing happens."
+#Return
+
+:item_bk_movement
+  #DisplayFile "bk_movement.txt"
+#Return
+
+:item_key
+  #Write   "To use a key, search the door you "
+  #Writeln "wish to use it on." 
+  #Endl
+#Return
+
+:item_potion_h
+  #TakeScriptedItem 6 1 "ERR"
+  #Writeln "Who will drink the potion?"
+  #RefreshConsole
+  #PromptPlayer [ti1]
+  #GiveHP [ti1] 30
+  #SetAlpha 100
+  #SetColor 255 255 200
+  #Writeln "Drinking..."
+  #RefreshConsole
+  #DrawFillRectangle 0 0 639 479
+  #RefreshScreen
+  #PauseMs 2000
+  #SetAlpha 255
+  #Endl
+#Return
+
+:ERR
+  #Writeln "ERROR in global script."
+  #Endl
+#Return
+
+:onkey_w
+  #Say "W"
+#Return
+
+:onkey_e
+  #Say "E"
+#Return
+
+:onkey_y
+  #Say "Y"
+#Return
+
+:onkey_o
+  #Say "O"
+#Return
+
+:onkey_d
+  #Say "D"
+#Return
+
+:onkey_f
+  #Say "F"
+#Return
+
+:onkey_j
+  #Say "J"
+#Return
+
+:onkey_c
+  #IfMapType "CAMP"
+  #Begin
+    #IfPlayerVehicle 0
+    #Begin
+      #Endl
+      #Writeln "Camp."
+      #AskInt [ti1] "Sleep for how many hours?"
+      #IfIntGT [ti1] 24
+        #IntEqu [ti1] 24
+      #IfIntLT [ti1] 0
+         #IntEqu [ti1] 0
+      #Endl
+      #Say "Resting for:"
+      #SayInt [ti1]
+      #Say "Hours."
+      #Endl
+      #Endl
+      #DoEffect 3
+      #Sleep [ti1] 10 7
+    #End
+  #End
+#Return
+
+:onkey_v
+  #Say "V"
+#Return
+
+:onkey_n
+  #Say "N"
+#Return
+
+:onkey_m
+  #Say "M"
+#Return
+^
+@Boat
+
+:PlayerOn
+  #SetPlayerVehicle 0
+#Return
+^
+
+@ErrorSetter
+#Say ""
+#Say "No er\"ror"
+#Say " No Error"
+
+#Return
+^
+
+:Init
+
+#ScrollOn
+#ClearScroll
+#SetFont 0
+
+#Write "----------------------------------------------------"
+#Write "    Use arrow keys to scroll information up\\down   "
+#Write "          Press esc to stop and enter game          "
+#Write "----------------------------------------------------"
+#Write "                                                    "
+#Write "               Dungeon  Graystone                   "
+#Write "                 By: Andy Stone                     "
+#Write "            ~= ------------------ = ~               "
+#Write "                                                    "
+#Write "  Far in the western mountains of the disputed      "
+#Write "territory near the Staltsarian border lays a dungeon"
+#Write "that now serves as a constant stigmatic reminder of "
+#Write "this controlversial territory. Graystone, as it was "
+#Write "called, served as a prison for those who commited   "
+#Write "the abominations of past disputes. Although its     "
+#Write "occupants undeniably consisted of the purest vermin "
+#Write "of society the prison remained no greater in its    "
+#Write "virtue. Lore now tells the story of the harrowing   "
+#Write "tortures endured by the inmates. They are now said  "    
+#Write "to haunt within the dusky dungeon walls.            "
+#Write "                                                    "
+#Write "  With such ghastly tales passing from generation to"
+#Write "generation lore and gossip surely did arise. The    "
+#Write "unearthly tales of the prison's haunted eminence    "        
+#Write "catalyzed the belief that the dungeon contained some"
+#Write "mystic powers that could be captured. Most notable  "
+#Write "is the belief that the dungeon regains its spectral "
+#Write "powers from a large diamond that lies in the        "
+#Write "dungeon's deep cavernous regions.                   "
+#Write "                                                    "
+#Write "  Esuriend for a wantonness life you began to       "
+#Write "believe such tales. Constantly beaconed by a calling"
+#Write "to retrieve the fabled diamond you began your long  "
+#Write "journey into Dungeon Graystone.                     "
+#Write "----------------------------------------------------"
+#Write " "
+#Write "How to play: "
+#Write " "
+#Write "  Use the arrow keys to move around the dungeon.    "
+#Write "through your journeys you'll encounter many         "
+#Write "interesting things. Use the L key to look at        "
+#Write "something if you're not sure what it is."
+#Write " "
+#Write "Be sure to experiment around. If something looks out"
+#Write "place try looking at it and searching it. When you  "
+#Write "get a new item use it. The keys you can use in this "
+#Write "game, and about any other L&L game are: "
+#Write " "
+#Write "UP ARROW:    Move north"
+#Write "DOWN ARROW:  Move south"
+#Write "LEFT ARROW:  Move west"
+#Write "RIGHT ARROW: Move east"
+#Write "ESC          Quit game"
+#Write "R            Ready (equip a weapon for battle)"
+#Write "T            Talk"
+#Write "U            Use item in inventory"
+#Write "P            Push"
+#Write "A            Attack"
+#Write "S            Search"
+#Write "G            Get and put into inventory"
+#Write "H            Help!"
+#Write "K            Climb"
+#Write "L            Look"
+#Write "Z            View statistics and inventory"
+#Write "C            Cast spell"
+#Write " "
+#Write " "
+#Write "Tips for playing: "
+#Write " "
+#Write " * Make sure you look at all signs often times they "
+#Write "   provide hints"
+#Write " * When in the village talk to everybody! Remember  "
+#Write "   you can always ask a villager what they're name  "
+#Write "   and job are. "
+#Write " * Don't be afraid to flee from a battle if it looks"
+#Write "   like you'll lose. "
+#Write " * Save often! "
+#Write "----------------------------------------------------"
+
+#ViewScroll
+#ScrollOff
+
+#Return
+
+^
+
+@ExitBlocker
+
+:PlayerOn
+  #Say "You can't exit the dungeon yet."
+  #Endl
+#Return
+
+^
+
+@DazedGaurd
+>Talker
+
+:Talk_Name
+  #Say "What name"
+#Return
+
+:Talk_Job
+  #Say "Death."
+#Return
+^
+
+@GiveMember
+
+:Talk
+  #GivePlayer 0
+#Return
+
+^
+
+@RecordTest
+%int "mark"
+%string "string"
+
+:Talk
+  #IntToStr [string] [mark]
+  #Say [string]
+  #IntInc [mark]
+#Return
+^
+
+@Object1
+
+:Call
+  #Writeln "Object 1 Called"
+#Return
+
+^
+
+@Object2
+
+:Talk
+  #pingclassAndDeriv "object1" "new"
+#Return
+
+^
+
+@Object3
+
+:New
+  #Say "This is object 3"
+#Return
+
+^
+
+@Object1Deriv
+>Object1
+
+:Call
+  #Say "Called the derivative"
+#Return
+
+^
+
+
+:Init
+#ClearScroll
+#SetFont 0
+#ScrollOn
+
+#Write "      Dungeon Graystone"
+#Write "  ~ =-------------------= ~ "
+#Write " "
+#Write "Welcome to Dungeon Graystone. Dungeon "
+#Write "graystone is a short game that displays "
+#Write "the abilities of the Lore And Lutes "
+#Write "engine. "
+#Write " "
+#Write "Story"
+#Write "-----"
+#Write " Far into the western Landanian mountains "
+#Write "lies an old dungeon where prisoners of "
+#Write "the rebellion were captured and tortured. "
+#Write "It's been near over 100 years since the "
+#Write "old prison was used. Lore tells that the "
+#Write "dungeon is now haunted by the ghosts of "
+#Write "war."
+#Write " "
+#Write " Near 150 years past a wealthy Unitarian "
+#Write "knight was captured and tortured in "
+#Write "the graystone prison. Yet he somehow "
+#Write "escaped. It is said the knight left "
+#Write "behind a diamond he stole from the emporer"
+#Write "His motives for such are yet unknown. The"
+#Write "diamond is said to hold a magnificent "
+#Write "incandescence and possess omnipotent "
+#Write "magical powers. "
+#Write " "
+#Write " The knights tale drew the upon the souls "
+#Write "of the greedy to travel to the prison "
+#Write "where the died. Elders now tell this "
+#Write "story to teach of the price of insolance "
+#Write "yet it's morals only beacon you to "
+#Write "achieve the goals of retrieving the "
+#Write "diamond. Self assured you begin to "
+#Write "travel west and enter the dungeon..."
+#Write " "
+#Write " "
+#Write " "
+#Write "To start off know these simple commands: "
+#Write " "
+#Write "Key   Action"
+#Write "------------"
+#Write "Left   Move west"
+#Write "Right  Move east"
+#Write "Up     Move north"
+#Write "Down   Move south"
+#Write "ESC    Exit game"
+#Write "T      Talk"
+#Write "U      Use"
+#Write "A      Attack"
+#Write "S      Search"
+#Write "G      Get"
+#Write "L      Look"
+#Write " "
+#Write "Throughout the game you'll encounter "
+#Write "signs. These signs display important "
+#Write "information that will help you in your "
+#Write "adventure."
+
+#ViewScroll
+#ScrollOff
+#Return
+^
+
+.classset 0
+0
+0
+9
+46 8 3 -1
+51 6 -1 3
+49 8 3 -1
+51 6 -1 3
+48 9 5 -3
+52 5 -3 5
+56 6 -2 3
+53 8 3 -1
+55 5 -1 4
+0
+.map 0
+"L&L .Map"
+"DEPTHS.MID"
+"default.terrain"
+"CAMP"
+10
+0 0
+11 11 38 38 11 28 10 52 100 100
+1
+3
+-1
+1
+0 99 0 99
+1 1 1 2
+0 0 0 0
+50 50
+"./data/gui/editor/error.png"
+| ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ 7.obj 0 ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  | 23073 "games/test/maps/battle.classset" 0 "games/test/maps/battle.info" 16 "games/test/maps/battle.map" 10016 "games/test/maps/battle.obj" 11465 "games/test/maps/global.class" 11516 "games/test/maps/global.classset" 13761 "games/test/maps/glscript.class" 13985 "games/test/maps/map0.class" 15758 "games/test/maps/map0.classset" 22663 "games/test/maps/map0.map" 22679 "games/test/maps/map0.obj" 23022

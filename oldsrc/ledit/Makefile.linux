@@ -1,0 +1,25 @@
+#Makefile for ledit on Linux
+
+#Include some global vars and such
+include ../Makefile.linux.deps
+
+#Please do not edit these options
+OBJECTS=battleitemeditor.o bordereditor.o classseteditor.o consoleeditor.o editor.o filechooser.o gameeditor.o help.o itemseteditor.o locationpicker.o loreandluteseditor.o mapeditor.o mapinfoeditor.o mapobjecteditor.o mapobjectremover.o mapseteditor.o mobilityeditor.o monstereditor.o monsterseteditor.o routeeditor.o scripteditemeditor.o scripteduniteditor.o templatereader.o terraineditor.o terrainseteditor.o tilematrixeditor.o unitseteditor.o vehicleeditor.o vehicleseteditor.o
+TARGET=libledit.so
+VERSION=0.1.0
+
+#Change to fit needs
+all: $(OBJECTS)
+	$(CC) $(LDFLAGS) -shared -Wl,-soname,$(TARGET) -o $(TARGET).$(VERSION) $(OBJECTS) $(LIBS) -lc
+	ln -s $(TARGET).$(VERSION) $(TARGET)
+
+.cpp.o:
+	$(CC) $(CFLAGS) -fPIC -c $*.cpp -o $*.o
+.c.o:
+	$(CC) $(CFLAGS) -fPIC -c $*.c -o $*.o
+	
+.PHONY: clean
+
+clean:
+	rm -rf $(TARGET) $(TARGET).$(VERSION) $(OBJECTS)
+

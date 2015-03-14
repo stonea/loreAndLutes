@@ -1,0 +1,67 @@
+@Sign
+$string "Message"
+
+:StartSign
+  #MoveNorth
+  #EndTurn
+  #MoveSouth
+  #EndTurn
+  #MoveWest
+  #EndTurn
+  #MoveEast
+  #EndTurn
+#Goto "StartSign"
+
+:Look
+  #Write [Message]
+#Return
+
+:Misc
+  #Writeln "Misc found!"
+#Return
+^
+
+@Scroll
+$string "Scroll"
+
+:StartScroll
+  #EndTurn
+#Goto "StartScroll"
+
+:Talk
+  #ClearScroll
+  #ScrollOn
+    #Write [Scroll]
+  #ScrollOff
+  #ViewScroll
+#Return
+
+^
+
+@Bob
+>Sign
+>Talker
+
+:Talk_What
+  #Writeln "New huh! Yay!"
+  #Goto "Misc"
+#Return
+
+:Talk_Name
+  #Writeln "I am bob."
+#Return
+
+:Talk_Bob
+  #Writeln "Tis me name."
+#Return
+
+:Talk_Job
+:Talk_Work
+  #Writeln "Thats what bob does."
+#Return
+
+:Talk_Does
+  #Writeln "Bob does his job."
+#Return
+^
+

@@ -1,0 +1,6 @@
+CC=g++
+#CC=g++
+LINKCC=g++
+CFLAGS=-g -O2 `sdl-config --cflags` -I. -I.. -I../asfc -I../lbase -I../ledit -I../lrun -I../textedit
+LDFLAGS=-g -O2 -I. -L. -L.. -L../asfc -L../lbase -L../ledit -L../lrun -L../textedit -L../loop
+LIBS=`sdl-config --libs` -lSDL_image -lGL -lGLU -lphysfs

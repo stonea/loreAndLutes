@@ -1,0 +1,24 @@
+/Makefile.linux/1.1/Mon Nov 25 19:56:35 2002//
+/Makefile.win/1.17/Sun Sep 28 21:25:38 2003//
+/battle.cpp/1.10/Sun Sep 28 21:25:38 2003//
+/battle.h/1.10/Sun Sep 28 21:25:38 2003//
+/copying.txt/1.1.1.1/Tue Oct 15 21:33:26 2002//
+/driver.cpp/1.27/Sun Sep 28 21:25:38 2003//
+/eventreader.cpp/1.2/Mon Jan  6 03:28:08 2003//
+/eventreader.h/1.2/Mon Jan  6 03:28:08 2003//
+/loreandlutes.cpp/1.19/Sun Sep 28 21:25:38 2003//
+/loreandlutes.h/1.15/Sun Sep 28 21:25:38 2003//
+/lrun.dev/1.16/Sun Sep 28 21:25:38 2003//
+/lrunstart.cpp/1.1/Sun Sep 28 21:25:38 2003//
+/lrunstart.h/1.1/Sun Sep 28 21:25:38 2003//
+/menu.cpp/1.1/Sun Sep 28 21:25:38 2003//
+/menu.h/1.1/Sun Sep 28 21:25:38 2003//
+/ready.cpp/1.3/Mon Mar 17 23:03:27 2003//
+/ready.h/1.2/Mon Mar 17 23:03:27 2003//
+/shader.cpp/1.3/Sun Sep 28 21:25:38 2003//
+/shader.h/1.4/Sun Sep 28 21:25:38 2003//
+/statviewer.cpp/1.2/Mon Mar 17 23:03:28 2003//
+/statviewer.h/1.2/Mon Mar 17 23:03:28 2003//
+/zstats.cpp/1.4/Mon Mar 17 23:03:29 2003//
+/zstats.h/1.2/Mon Mar 17 23:03:30 2003//
+D

@@ -1,0 +1,50 @@
+#Root Makefile for LoreAndLutes on Linux
+
+#Include some global vars and such
+#include Makefile.linux.deps
+
+#Please do not edit these options
+
+#Change to fit needs
+
+TOPDIR=.
+
+.PHONY: asfc libasfc lbase liblbase libledit libloop liblrun textedit libtextedit
+
+asfc:
+	cd $(TOPDIR)/asfc/ && make -f Makefile.linux driver
+	
+libasfc:
+	cd $(TOPDIR)/asfc/ && make -f Makefile.linux lib
+
+lbase:
+	cd $(TOPDIR)/lbase/ && make -f Makefile.linux driver
+			
+liblbase:
+	cd $(TOPDIR)/lbase/ && make -f Makefile.linux lib
+	
+libledit:
+	cd $(TOPDIR)/ledit/ && make -f Makefile.linux lib
+	
+libloop:
+	cd $(TOPDIR)/loop/ && make -f Makefile.linux lib
+	
+liblrun:
+	cd $(TOPDIR)/lrun/ && make -f Makefile.linux lib
+
+textedit:
+	cd $(TOPDIR)/textedit/ && make -f Makefile.linux driver
+		
+libtextedit:
+	cd $(TOPDIR)/textedit/ && make -f Makefile.linux lib
+
+.PHONY: clean
+
+clean:
+	cd asfc;make -f Makefile.linux clean
+	cd lbase;make -f Makefile.linux clean
+	cd loop;make -f Makefile.linux clean
+	cd lstart;make -f Makefile.linux clean
+	cd textedit;make -f Makefile.linux clean
+	cd ledit;make -f Makefile.linux clean
+	cd lrun;make -f Makefile.linux clean
