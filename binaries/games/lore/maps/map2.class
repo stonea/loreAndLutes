@@ -1,0 +1,276 @@
+@Joseph
+>Talker
+
+:Talk_Name
+  #Say "Joseph."
+#Return
+
+:Talk_Job
+:Talk_Work
+  #Say "Well. My wife would probably say I help"
+  #Say "nature grow um.. food."
+#return
+
+:Talk_Natur
+:Talk_Food
+  #Say "The food is how we survive.  It's"
+  #Say "um... Nature's great goodness."
+#Return
+
+:Talk_Wife
+  #Say "She's a bit crazy, but she has found"
+  #Say "peace."
+#Return
+
+:Talk_Crazy
+:Talk_Peace
+  #Say "Ask my wife."
+#Return
+
+
+^
+
+@Trillia
+>Talker
+
+%string "YN"
+
+:Talk_Name
+  #Say "I am Trillia."
+#Return
+
+:Talk_Job
+:Talk_Work
+  #Say "I work the lands. Using its soil to grow"
+  #Say "food for the hungry."
+#Return
+
+:Talk_Lands
+:Talk_Hungr
+  #Say "We'd all suffer from hunger sooner or"
+  #Say "later if it weren't for me. I am the"
+  #Say "the giver, the grower, I create the food"
+  #Say "which is life."
+#Return
+
+:Talk_Hunge
+:Talk_Suffe
+:Talk_Giver
+:Talk_Growe
+  #Say "I am much like the godess nature."
+  #Say "I am whole, I am one with her."
+#Return
+
+:Talk_Godes
+:Talk_Natur
+  #Say "We must all thank her."
+#Return
+
+:Talk_Life
+  #Say "Life is mother nature's way of creating"
+  #Say "the spiritual incarnate."
+#Return
+
+:Talk_Soil
+:Talk_Grow
+:Talk_Blood
+  #Say "Soil is mother nature's blood. If flows"
+  #Say "across her Earth to replenish the flowers"
+  #Say "and holly trees of her grand painting."
+#Return
+
+:Talk_Flowe
+:Talk_Holly
+:Talk_Tree
+  #Say "And it is that which she uses as her"
+  #Say "brush."
+#Return
+
+:Talk_Crazy
+:Talk_Insan
+
+:Talk_Oddba
+:Talk_Weird
+  #Say "I am not crazy!"
+#Return
+
+:Talk_Hippy
+  #Say "How didst thou know?!"
+  #Ask [YN] "Hast thou tofu?"
+  #Say "Oh."
+#Return
+
+:Talk_Peace
+  #Say "I do hope very much for peace."
+#Return
+^
+
+@Jeana
+>Talker
+
+:Talk_Name
+  #Say "I am called Jeana."
+#Return
+
+:Talk_Job
+:Talk_Work
+  #Say "I farm the land with my husband. We grow"
+  #Say "many beutiful crops."
+#Return
+
+:Talk_Husba
+:Talk_Harri
+  #Say "Aye, Harris. I do love him but I wish"
+  #Say "he wouldn't drink as he does. It worries"
+  #Say "me."
+#Return
+
+:Talk_Drink
+  #Say "His favorite is rum, I try to stay away"
+  #Say "from the stuff meself."
+  #Say "He goes to the bar constantly to quaff"
+  #Say "more and more. It's caused many problems."
+#Return
+
+:Talk_Bar
+  #Say "Over at the eastern edge of town."
+#Return
+
+:Talk_Quaff
+:Talk_Probl
+  #Say "I'd rather not talk about such things."
+  #Say "He should consider himself lucky though"
+  #Say "as I always help him out when needed."
+#Return
+
+:Talk_Help
+:Talk_Lucky
+:Talk_Love
+  #Say "He should be thanking me endlessly. What"
+  #Say "other wife would drag him home every"
+  #Say "night drunk as a dog."
+#Return
+
+:Talk_Wife
+  #Say "Only I would love him through such"
+  #Say "foolishness."
+#Return
+
+:Talk_Dog
+  #Say "Some type of mutt really."
+#Return
+
+:Talk_Crops
+:Talk_Farm
+:Talk_Grow
+  #Say "We farm wheat mostly. It seems to be"
+  #Say "growing well this year."
+#Return
+^
+
+@Harris
+>Talker
+
+%string "YN"
+
+:Talk_Name
+  #Say "Harris is me name. I think..."
+#Return
+
+:Talk_Job
+:Talk_Work
+  #Say "Aye, I drinks I doos <hic!> Oh and I"
+  #Say "farms I do!"
+#Return
+
+:Talk_Drink
+  #Say "And a bottle of rum."
+#Return
+
+:Talk_Farm
+  #Say "And drink!"
+  #Say "And farm!"
+  #Say "And drink!"
+  #Say "<Hehehe!>"
+#Return
+
+:Talk_Bottl
+:Talk_Rum
+  #Say "Yo ho ho."
+#Return
+
+:Talk_Yo
+:Talk_Ho
+  #Say "Say..."
+  #Ask [YN] "You doesn't hasn't on thee any?"
+  #IfStrEqu [YN] "Y"
+    #Say "<code>"
+#Return
+^
+
+@Quaffton
+>Talker
+
+%string "YN"
+%int "SwordGiven"
+
+:Talk_Name
+  #Say "Why I am thine neighbor Quaffton! Hast"
+  #Say "your mind gone to the abyss!"
+#Return
+
+:Talk_Abyss
+  #Say "It must have."
+#Return
+
+:Talk_Work
+:Talk_Job
+  #Say "I used to travel these great vast lands"
+  #Say "but now I live out my days here."
+#Return
+
+:Talk_Land
+:Talk_Lands
+:Talk_Vast
+:Talk_Used
+:Talk_Trave
+  #Say "I used to be an adventurer, me and my"
+  #Say "sword traveled many places."
+#Return
+
+:Talk_Sword
+
+  #Say "Indeed my great bloody sword! I found"
+  #Say "it by a tall tower while I was"
+  #Say "traveling around Trisk."
+  #Ask [YN] "Wouldst you like it?"
+  #IfStrEqu "Y" [YN]
+  #Begin
+    #Say "Giving "
+  #End
+  #IfStrEqu "N" [YN]
+  #Begin
+    #Say "--[No Give]--"
+  #End
+#Return
+
+:Talk_Place
+  #Say "All around the world. If you're looking"
+  #Say "for a good place to adventure I do"
+  #Say "suggest the Western Caves."
+#Return
+
+:Talk_Weste
+:Talk_Caves
+  #Say "A lot is to be found there."
+#Return
+
+:Talk_Live
+:Talk_Here
+:Talk_Days
+  #Say "Now I live here in Landania. Not a bad"
+  #Say "place. But it hasn't the excitement"
+  #Say "my old travels used to have!"
+#Return
+^
+

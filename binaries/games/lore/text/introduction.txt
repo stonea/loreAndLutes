@@ -1,0 +1,257 @@
+Use arrow keys to scroll, press escape to exit
+------------------------------------------------
+
+Lore and Lutes
+By: Andy Stone
+See copying.txt for licensing information.
+
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~
+
+  Welcome to Lore and Lutes! Be sure to read this
+text if you haven't played L&L before:
+
+  You start your adventure off in your home
+village of Lockanburg after having a vision of
+a man stabbing himself. Your neighbor Quaffton,
+for whatever strange motives he may have, tells
+you that the room where this man stabbed himself
+exists in a far off city called Trisk.
+
+  Always being a generally calm person it
+suprises you as you have a great yearning to
+actually find this room. Feelings overwhelm you.
+You are oddly beconing toward this enchanted
+chamber.
+
+  The problem is you don't know where Trisk is,
+or if it even exists. Quaffton tells you that
+the townspeople know many things and advises you
+to ask them.
+
+Talking to towns people
+-----------------------
+  Townspeople can aid you in your quest. To talk
+to a townsperson appraoch them by using the
+arrow keys so that you are on an adjecent tile
+to them. Then press the 't' key (for talk) and
+specify the direction the towns person is
+reletive to your character.
+
+  When you begin your conversation you'll
+see a small description of what the townsperson
+looks like. You may then ask them a question. In
+Lore and Lutes you ask questions by typing in
+certain keywords. For instance if you wish to
+ask a lighthouse keeper of his lighthouse you
+would enter "lighthouse" and press enter.
+
+  There are two special keywords you may
+ask any townsperson. These keywords are:
+Name and Job. A good way to start a conversation
+is by asking a person about there "job" then
+looking for certain keywords in their response
+and asking about them. For instance if you
+ask someone about their "job" they may tell you
+that they forge armor for the gaurds. You can
+then get more details, and a deeper conversation,
+by asking about "armor" or "gaurds".
+
+  Start your game by asking the townspeople in
+Lockanburg about "Trisk". Pay attention to their
+responses as they clue you into what your next
+quest is.
+
+The consoles
+------------
+Once you start the game you'll notice two
+very important text consoles on the right
+hand side of the screen. The top one displays
+current information about your character and
+the other members in his adventure party.
+At the start of the game they'll only be
+one member, you. The bottom one displays any
+important information that comes up as you
+move around, talk, search, and use items.
+
+Moving, searching, looking, and getting
+----------------------------------------
+To move around Lockanburg use the arrow keys.
+As you move around you'll notice areas that are
+blacked out. These black tiles represent areas
+that you can't see because something is
+blocking your vision.
+
+You'll also notice some obstacles that you
+can climb over, such as fences. To climb over
+something press the 'k' key and then specify
+a direction.
+
+When you get another vehicle, such as a boat
+or a horse you can board the vehicle by moving
+on top of it and pressing the 'b' key for board.
+If you want to exit a boat, or demount a horse
+press 'x' for exit.
+
+A few objects can be pushed out of your way
+if they're blocking you (such as chairs). To
+move something something move adjecent to
+it then use the 'p' key to push.
+
+If your confused about exactly what a tile
+is supposed to be you can look at it. Approach
+the tile so that your character is adjacent
+to it, press the 'l' key, and then use the
+arrow keys to specify where this tile is
+reletive to your character. A small description
+of the tile will appear. If you look at signs
+the text written on them will appear on the
+screen.
+
+Searching something will tell you if there's
+anything interesting in it that you can get.
+Like looking and talking to search you have to
+move adjacent to what it is you want to search.
+Then press the 's' and specify it. If you find
+something interesting use 'g' to get the item.
+
+For instance when you start the game you'll
+be in Quaffton's house. If you search is
+dresser drawers you'll find a potion. If you
+wish to take it (steal it) use 'g' to get it.
+
+Inventory and zStats.
+---------------------
+Whenever you get an item it will be added to
+your inventory. To view what items you
+have in your inventory press the 'z' key. This
+will open up the zStats menu. To navigate the
+zStats menu use the left and right arrow keys
+to flip the current page. As you flip pages
+you'll notice several interesting pages. These
+pages include:
+
+  * A list of your party members.
+  * Detailed information about each member.
+  * Your battle inventory. When you get a
+    weapon or a peice of armor it will be listed
+    in here. Anything in your battle inventory
+    has to be equipped to be used.
+  * Inventory. All items that don't have to be
+    equipped to be used are listed here.
+  * Your current gold and food. You use gold
+    throughout the game to purchase items from
+    merchents. Food is a neccessary item for
+    survival.  Each member in your party eats 3
+    pieces of  food per day. If you run out of
+    food they will begin to starve and will
+    slowly die. Be sure to have plenty of food!
+
+  If you want to use an item in your inventory
+press the 'u' key. This will bring up the
+inventory menu again. Use the up and down arrow
+keys to select an item and then press enter.
+
+Equipping items in your inventory
+----------------------------------
+Any item in your battle inventory has to be
+equipped to a party member before it can be
+used. Battle inventory items include things
+like swords and armor. To equip an item press
+the 'r' key for ready, choose a party member, 
+and then choose what items you wish to equip.
+To unequip an item use 'r' to ready and then
+select and choose items the party member already
+has equipped. Items that have an (X) next to
+them are equipped by the party member.
+
+Day time, night time
+--------------------
+Lore and Lutes has a sense of time. You start
+your adventure in the morning and every
+step you take will increase the current time
+by some amount.
+
+You'll notice that the townspeople move about
+during the day. For instance, the work in the
+mornings and when evening comes around they'll
+travel to their home or to the local tavern for
+a meal.
+
+You'll also notice that as night time approaches
+you'll see less and less and eventually be
+shrouded in darkness.
+
+If you have torches in your inventory you can
+use them to illuminate the area around you.
+Use the 'i' key to ignite a torch.
+
+Battle Mode
+-----------
+Lore and Lutes consists of two main modes.
+Travel mode, the mode you start the game in
+where you walk around and talk to people, and
+battle mode. You enter battle mode whenever
+a monster attacks you (or you attack a monster).
+
+In battle mode a board of 11 x 11 tiles will
+fill the screen just as it does in travel mode.
+Unlike travel mode the screen doesn't scroll as
+you move around. Also if you have multiple
+members in your party you'll see them there
+and you'll be able to control them.
+
+Control works similiar to as it does in travel
+mode. When it's your characters turn a flashing
+box will surround him. You can move by using
+the arrow keys. To attack (using your equipped
+weapon) press the 'a' key. A flashing red box
+will appear. Use the arrow keys to choose
+your target and press space to use your
+weapon there.
+
+Pay close attention to your hit points 
+which are displayed in the top right console.
+If you reach 0 HP then you are dead. If it
+looks like you're losing a battle you can try
+to flee. Flee by moving your character off the
+map. Every time you flee a battle your
+experience points will decrease so avoid
+fleeing whenever possible.
+
+As you increase in hit points your character
+will gain new levels. Whenever your character
+is promoted a level he will get more HP and
+often times other good characteristics. You
+can not be demoted a level unless your character
+dies. You gain experience by killing monsters.
+If a monster flees the battle before you kill it you
+will not get experince for it.
+
+If you win the battle you can exit it by moving
+all of your party members off the map or
+pressing the escape key. You can not use
+the escape key to exit before you have victory.
+
+When you kill an enemy either their guts or
+a chest will appear. Always search the guts
+and chests for food. To get items in the
+chest use the 'g' key the same way you
+would in travel mode.
+
+Saving your game and exitting Lore
+----------------------------------
+When you're finished playing, or want to
+back up your current game, press the escape
+key. A menu will come up. The save and load
+buttons do as you would expect. The "Leave
+Lore and Lutes" button exits the game. But
+why would you want to do that?!
+
+Pulling up this file
+--------------------
+During your adventures if you wish to view
+this piece of text again press the 'h' key.
+Good luck on your adventure!
+
+Press escape to stop viewing this text file
+and start playing already!

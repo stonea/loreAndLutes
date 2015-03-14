@@ -1,0 +1,12 @@
+@InitMap
+
+:Init
+  #IfFlag "SpawnBoat"
+  #Begin
+    #SpawnVehicleObject 0 39 39
+    #FlagOff "SpawnBoat"
+  #End
+#Return
+
+^
+

@@ -1,0 +1,10 @@
+.buttons 0
+88 81
+7
+263 60 "./data/gui/buttons/title.png"
+131 60 "./data/gui/buttons/new.png"
+131 60 "./data/gui/buttons/help.png"
+131 60 "./data/gui/buttons/save.png"
+131 60 "./data/gui/buttons/load.png"
+263 60 "./data/gui/buttons/switch.png"
+263 60 "./data/gui/buttons/exit.png"

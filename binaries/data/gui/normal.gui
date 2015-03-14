@@ -1,0 +1,16 @@
+.gui 0
+"Lore And Lutes"
+"data/gui/icons/icon.bmp"
+"data/gui/editor/cursors/default.png"
+"data/gui/editor/error.png"
+"data/gui/editor/error2.png"
+"data/gui/borders/celestia/celestia.border"
+8 14
+"data/gui/fonts/landanian_console_font.png"
+"data/gui/fonts/bold_console_font.png"
+"data/gui/fonts/shadow_console_font.png"
+"data/gui/fonts/normal_console_font.png"
+10  52  52 29
+438 52 	24 10
+438 204 24 19
+10  52  52 4

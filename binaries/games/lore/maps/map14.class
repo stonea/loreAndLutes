@@ -1,0 +1,396 @@
+@TreeOfTrisk
+
+:Look
+  #Write "You see a fruit tree."
+#Return
+
+:Search
+  #Write "You see fruit."
+  #IfAskYN "Pick one?"
+    #GiveScriptedItem 4 1
+#Return
+
+^
+
+>Talker
+
+:Talk_Name
+  #Say "Ickarus."
+#Return
+
+:Talk_Work
+:Talk_Job
+  #Say "I play my tunes on this 'ere lute."
+#Return
+
+:Talk_Tune
+  #Say "Once a many 'ear ago."
+  #WaitForKey
+  #Endl
+  #Endl
+  #Say "People didn't live so low"
+  #WaitForKey
+  #Endl
+  #Endl
+  #Say "Along came war"
+  #WaitForKey
+  #Endl
+  #Endl
+  #Say "Which casted horror"
+  #WaitForKey
+  #Endl
+  #Endl
+  #Say "And now they think of shame"
+  #WaitForKey
+  #Endl
+  #Endl
+  #Say "Good eh?"
+  #IfAskYN
+  #Begin
+     #Say "Not many appreciate fine art."
+     #Return
+  #End
+    #Say "People don't understand my tunes."
+#Return
+
+:Talk_Lute
+  #Say "I tell stories of Lore."
+#Return
+
+:Talk_Lore
+  #Say "And war!"
+#Return
+
+:Talk_War
+  #Say "And horror!"
+#Return
+
+:Talk_Horr
+  #Say "And... umm. Snore?"
+#Return
+
+:Talk_Snor
+  #Say "Ran out of rhymes."
+#Return
+
+:Talk_Rhym
+  #Say "I haven't the time."
+#Return
+
+:Talk_Time
+  #Say "Now act like a mime!"
+#Return
+
+:Talk_Mime
+  #Say "That means be quiet."
+#Return
+
+:Talk_Quiet
+  #Say "Like a mime."
+#Return
+
+:Talk_Move
+  #Say "I'm sorry. What didst you ask about?"
+  //Move    Let me ask thee.
+  //Dost thou approve of the current war?
+  //Y:      Me too.
+  //N:      Goto Label A
+  //Else    Oh. I misheard.
+#Return
+
+:Labal_A
+  //If Ickarus isn't at home
+  #Begin
+    #Say "I can't talk of such things here."
+    #Say "See me when I'm at the inn."
+    #Return
+  #End
+
+  #Say "The movement seeks to uncover the truth"
+  #Say "of why we are in perpetual war."
+  #Say "The reasons are... Dark. Do"
+  #Say "you wish to join?"
+  #IfAskYN
+  #Begin
+    #Say "Are you willing to prove your worth?"
+    #IfAskYN
+    #Begin
+      #Say "Then I have a mission for you."
+      #WaitForKey
+      #Endl
+      #Endl
+      #Say "There is said to be a magical"
+      #Say "tree growing in Kharist."
+      #WaitForKey
+      #Endl
+      #Endl
+      #Say "I believe it may be a key to the"
+      #Say "war's dark past."
+      #WaitForKey
+      #Endl
+      #Endl
+      #Say "Pick it's fruit and return it to me."
+      #Return
+    #End
+    #Say "Then you are not yet ready."
+  #End
+  #Say "Good. Because doing so would make you a"
+  #Say "traitor and I'd have to turn you over to"
+  #Say "those gaurds."
+#Return
+
+:Talk_Khari
+  //If Ickarus isn't at home
+  #Begin
+    #Say "I can't talk of such things here."
+    #Say "See me when I'm at my house."
+    #Return
+  #End
+  #Say "Oh. Of course! You don't know of such"
+  #Say "matters. Take this book."
+  //<Give book of Movement>
+  #Zap "Talk_Khari"
+#Return
+^
+
+@Maria:
+>Talker
+:Talk_Name
+  #Say "Maria."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "I keep the chamber's clean."
+#Return
+
+:Talk_Chamb
+  #Say "These small little rooms can"
+  #Say "get so dirty."
+#Return
+
+:Talk_Clean
+  #Say "The inn tries to look reletively"
+  #Say "grand."
+#Return
+
+:Talk_Grand
+  #Say "It's nothing like the inn at Vertigan."
+#Return
+
+:Talk_Verti
+  #Say "The Royal Balconies."
+#Return
+
+:Talk_Royal
+:Talk_Balco
+  #Say "Indeed, it's the finest place in the"
+  #Say "world. It cater's to the most greedy"
+  #Say "men alive."
+#Return
+
+:Talk_Fines
+  #Say "Parts of the inn are are larger than"
+  #Say "most villages."
+#Return
+
+:Talk_Greed
+  #Say "Indeed, greed rules Riltania."
+#Return
+
+:Talk_Rilta
+  #Say "The country profits from the war."
+#Return
+
+:Talk_Profi
+  #Say "They neutrally sell weapons to both"
+  #Say "sides of the conflict."
+#Return
+
+:Talk_Neutr
+:Talk_Confl
+  #Say "I must wonder if they fule its fire."
+#Return
+
+:Talk_Fuel
+:Talk_Fire
+  #Say "Of the war."
+#Return
+
+:Talk_War
+  #Say "'Tis for a noble cause."
+#Return
+
+:Talk_Noble
+  #Say "No doubt of it."
+#Return
+^
+
+@Shelly
+>Talker
+:Talk_Name
+  #Say "Shelly."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "I serve."
+#Return
+
+:Talk_Serve
+  #Say "I serve those who wish to drink."
+#Return
+
+:Talk_Drink
+  #Say "Ale."
+#Return
+
+:Talk_Ale
+  #Say "It's their escape."
+#Return
+
+:Talk_Escap
+  #Say "From reality."
+#Return
+
+:Talk_Reali
+  #Say "Reality is pain."
+#Return
+
+:Talk_Pain
+  #Say "Pain consumes us. It has for me."
+#Return
+
+:Talk_Consu
+  #Say "That's why I work here."
+#Return
+^
+
+@Derreck
+>Talker
+
+:Talk_Name
+  #Say "Derreck."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "I am a seeker of truth."
+#Return
+
+:Talk_Searc
+:Talk_Seek
+  #Say "I have traveled all over the"
+  #Say "world in search of adventure."
+#Return
+
+:Talk_Trave
+  #Say "Everywhere but Trisk."
+#Return
+
+:Talk_Trisk
+  #Say "I've heard rumors of what Trisk is."
+  #Say "I don't take too much stock in any of"
+  #Say "them. But if the city exists I'd like"
+  #Say "to see it."
+#Return
+
+:Talk_Adven
+  #Say "It is my quest... Are you on a quest?"
+  #IfAskYN
+  #Begin
+    #Say "Then I shall join you if you'd like."
+    #Return
+  #End
+  #Say "Then you will never know the truth."
+#Return
+
+:Talk_Join
+  #Say "Do you wish me to join your quest?"
+  #IfAskYN
+  #Begin
+    #Say "Then I will help on your quest."
+    //join
+    //Die
+    #Return
+  #End
+  #Say "If you change your mind let me know."
+#Return
+^
+
+@Harrold
+>Talker
+:Talk_Name
+  #Say "You haven't the right to know."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "What is it to you?!"
+#Return
+
+:Talk_What
+  #Say "Be gone fool!"
+#Return
+^
+
+@Peter
+>Talker
+:Talk_Name
+  #Say "I am peter."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "Isn't that ovious? I farm."
+#Return
+
+:Talk_Farm
+  It is the most abundent profession in the land.
+#Return
+
+:Talk_Land
+  Landania.
+#Return
+
+:Talk_Abund
+:Talk_Profe
+  People must be fed.
+#Return
+
+:Talk_Peopl
+  Even our enemies need food to live.
+#Return
+
+:Talk_Fed
+  Theres not much food these days but we must eat what we have.
+#Return
+
+:Talk_Enemi
+  Their food fuels their fury.
+#Return
+
+:Talk_Food
+  If we all had a little more to eat we'd probably be calmer.
+#Return
+
+:Talk_Fury
+  May Staltsaria be cast to hell.
+#Return
+
+:Talk_Hell
+  Our armies shall teach them all a lesson soon.
+#Return
+
+:Talk_Lesso
+  If it weren't for Staltsaria there'd be more food.
+#Return
+
+:Talk_Stalt
+  The war takes young farmer's and makes them soldiers.
+#Return
+
+:Talk_Soldi
+  Staltsaria causes all our problems.
+#Return
+

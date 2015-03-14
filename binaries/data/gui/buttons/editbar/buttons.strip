@@ -1,0 +1,13 @@
+.strip 0
+"data/gui/buttons/editbar/"
+10
+"me" 12 "Map options" "Terrains" "Items" "Monsters" "Vehicles" "Scripting" "Transports" "Decorations" "User configured menu" "Edit players set" "Toggle routing mode" "Special views"
+"mo" 12 "Save map" "Load map" "Switch map" "Switch to battle map" "Clear map" "Map information" "Global information" "Move cursor to" "Previous layer" "Next layer" "Help!" "About Lore and Lutes"
+"tr" 2  "Edit terrain set" "Pick terrain"
+"it" 6  "Edit item set" "Place item" "Template: Chest" "Template: Barrel" "Template: Sack" "Template: Drawers"
+"ms" 3  "Edit monster set" "Edit keys" "Place enemy"
+"ve" 4  "Edit vehicle set" "Edit vhcl. obj. set" "Edit keys" "Place vhcl. obj."
+"sc" 4	"Local classes" "Global classes" "Global script" "Place object"
+"tp" 5  "Template: Stairs up" "Template: Stairs dn" "Template: Ladder up" "Template: Ladder dn" "Template: Village"
+"de" 5  "Template: Chair" "Template: Table" "Template: Candles" "Template: Bed W"  "Template: Bed E"
+"sv" 4  "Gem view" "Highlight objects" "Help" "Jot notes"

@@ -1,0 +1,13 @@
+Game:    Lore and Lutes
+Author:  Andy Stone
+Version: 1.0 alpha
+
+  Lore and Lutes is the default
+game that comes with the Lore
+and Lutes engine. You should
+play some of this game first
+before attempting to create your
+own game.
+
+Visit: http:\\www.
+   loreandlutes.sourceforge.net

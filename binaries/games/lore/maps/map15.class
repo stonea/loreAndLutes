@@ -1,0 +1,70 @@
+@MapInit
+
+:Init
+  #IfFlag "Prison1"
+  #Begin
+    #ClearNarate
+    #ReDrawMap
+    #Narate "You find yourself in a damp prison "
+    #Narate "cell."
+    #Narate " "
+    #WaitForKey
+    #ReDrawMap
+    #DrawImageEffect "act2.png" 15 150 2
+    #WaitForKey
+    #DoEffect 2
+  #End
+#Return
+
+
+^
+
+@Hydanne
+>Talker
+
+:Talk_Name
+  #Say "I am Hydanne."
+#Return
+
+:Talk_Job
+  #Say "I spend my days trapped in this prison"
+  #Say "for a crime I did not commit."
+#Return
+
+:Talk_Priso
+  #Say "I've tried to escape several times before,"
+  #Say "but failed."
+#Return
+
+:Talk_Escap
+:Talk_Times
+  #Say "Say."
+  #IfAskYN "Will you help me escape?"
+  #Begin
+    #Say "Fine, I will join you. Use this key I"
+    #Say "smuggled in to unlock the door."
+    #GiveScriptedItem 5 1
+    #GivePlayer 2
+    #Die
+    #IntEqu [StillTalking] 0
+    #Return
+  #End
+  #Say "Oh. Too bad."
+#Return
+
+:Talk_Faile
+:Talk_Crime
+  #Say "I don't like to talk about it."
+#Return
+
+^
+
+@Temp
+
+:Talk
+  #GivePlayer 1
+  #GivePlayer 2
+#Return
+
+^
+

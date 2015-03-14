@@ -1,0 +1,514 @@
+@Quaffton
+>Talker
+
+:Talk_Name
+  #Say "Why my name is Quaffton! Did you hit your head?"
+#Return
+
+:Talk_Hit
+:Talk_Head
+  #Say "You ought to know my name 'lad. Ayve' been your"
+  #Say "neighbor for many years."
+#Return
+
+:Talk_Neigh
+:Talk_Year
+  #Say "Ever since your father moved here."
+#Return
+
+:Talk_Dark
+:Talk_Fathe
+  #Say "I don't wish to discuss such dark matters."
+#Return
+
+:Talk_Work
+:Talk_Job
+  #Say "I used to be an adventurer. Now I sit my days our here."
+#Return
+
+:Talk_Days
+:Talk-Sit
+  #Say "In Lockanburg."
+#Return
+
+:Talk_Adven
+  #Say "Ay' traveled all over the world I did."
+#Return
+
+:Talk_Trave
+:Talk_World
+  #Say "Indeed. You'll have to too if you want to see Trisk."
+#Return
+
+:Talk_Trisk
+  #Say "The fabaled city of magic. You'll have to ask"
+  #Say "others to figure out where it is."
+#Return
+
+:Talk_Ask
+:Talk_Other
+  #Say "Aye. Start by asking those here in Lockanburg about 'Trisk'."
+#Return
+^
+
+@Joseph
+>Talker
+
+:Talk_Name
+  #Say "Joseph."
+#Return
+
+:Talk_Work
+:Talk_Job
+  #Say "I work the fields with my wife Trillia."
+#Return
+
+:Talk_Field
+  #Say "If it weren't for those Staltsarian scum life"
+  #Say "would be easier."
+#Return
+
+:Talk_Life
+:Talk_Easie
+  #Say "Wouldn't have to work so hard."
+#Return
+
+:Talk_Stalt
+  #Say "Staltsaria is the root of all modern day problems"
+  #Say "in Landania!"
+#Return
+
+:Talk_Root
+:Talk_Probl
+  #Say "They stole our territory and thus our wealth."
+#Return
+
+:Talk_Terri
+  #Say "Tis' called \"The Disputed Territory\" now. It lies"
+  #Say "West of this continent."
+#Return
+
+:Talk_Wealt
+  #Say "If I had money I wouldn't 'ave to work so hard."
+#Return
+
+:Talk_Trill
+  #Say "My wife."
+#Return
+
+:Talk_Trisk
+  #Say "I know not of that fabaled excuse!"
+#Return
+
+^
+
+@Trillia
+>Talker
+
+%string "KnowsPlayerAs"
+
+:Talk_Name
+  #Say "I'm called Trillia."
+  #Ask [KnowsPlayerAs] "Who are you?"
+  #Zap "Talk_Name"
+  #Say "How are you"
+  #Say [KnowsPlayerAs]
+#Return
+
+:Talk_Name
+  #Say "You know me, I'm Trillia. And how are you"
+  #Say [KnowsPlayerAs]
+#Return
+
+:Talk_Work
+:Talk_Job
+  #Say "I work the fields"
+#Return
+
+:Talk_Field
+  #Say "'Tis a simple job in these hard times."
+#Return
+
+:Talk_Simpl
+  #Say "Simplicity is the key to a happy life."
+#Return
+
+:Talk_Hard
+  #Say "Hard because of the war."
+#Return
+
+:Talk_War
+  #Say "We've been at war with Staltsaria for so long."
+#Return
+
+:Talk_Stalt
+  #Say "Our enemy. Don't understand it myself though."
+#Return
+
+:Talk_Long
+  #Say "As far back as I can remember."
+#Return
+
+:Talk_Under
+:Talk_Enemy
+  #Say "Aye. They teach us to hate them without reason."
+#Return
+
+:Talk_Hate
+:Talk_Reaso
+  #Say "The war only continues on out of tradition."
+#Return
+
+:Talk_Tradi
+  #Say "It's gone on for so long."
+#Return
+
+:Talk_Josep
+  #Say "He's a good man. Too angry though."
+#Return
+
+:Talk_Angry
+  #Say "He always talks of how our problems exists because"
+  #Say "of Staltsaria."
+#Return
+
+:Talk_Probl
+  #Say "I see no problems with our simple life."
+#Return
+
+:Talk_Trisk
+  #Say "You know the truth! Say..."
+  #IfAskYN "Do you approve of the war?"
+  #Begin
+    #Say "Then you are a good citizen."
+    #Return
+  #End
+
+  #Say "I agree with you. Go to Yallten and "
+  #Say "ask the tavern bard of the movement."
+#Return
+
+:Talk_Truth
+:Talk_Move
+  #Say "The movement seeks to uncover the truths"
+  #Say "behind the war."
+#Return
+
+:Talk_Tavern
+  #Say "The Rusty Stine."
+#Return
+
+:Talk_Great
+:Talk_Good
+:Talk_Fine
+:Talk_Okay
+  #Say "Nice to hear."
+#Return
+
+:Talk_Bad
+  #Say "That's too bad."
+#Return
+^
+
+@Jeana
+>Talker
+
+:Talk_Name
+  #Say "Jeana"
+#Return
+
+:Talk_Work
+:Talk_Job
+  #Say "I farm... To pay for me husbands drinks!"
+#Return
+
+:Talk_Husba
+:Talk_Drink
+:Talk_Pay
+  #Say "The old sod. Drinks is all he ever does."
+#Return
+
+:Talk_Trisk
+  #Say "I know not of it."
+#Return
+^
+
+@Harris
+>Talker
+%int "GetDrink"
+%int "DrinkReturned"
+
+:Init
+  #IntEqu [GetDrink] 0
+  #IntEqu [DrinkReturned] 0
+  #Zap "Init"
+#Return
+
+:Talk_Name
+  #Say "Heh... Umm. *hic!* Harris... That's it! Harris."
+#Return
+
+:Talk_Work
+:Talk_Job
+  #Say "I drink, Aye's do!"
+#Return
+
+:Talk_Terro
+:Talk_Dispu
+  #Say "That's a boring topic. What about drinkin! *hic*"
+#Return
+
+:Talk_Drink
+  #IFIntEqu [DrinkReturned] 1
+  #Begin
+    #Say "Thanks for the drink lad!"
+    #Return
+  #End
+
+  #IfIntEqu [GetDrink] 1
+  #Begin
+    #Say "It's you lad."
+    #IfAskYN "Did you get me that wine?"
+    #Begin
+      #TakeScriptedItem 2 1 "NoWine" 
+      #IntEqu [DrinkReturned] 1
+      #Say "Thank you lad! Now what was it I was"
+      #Say "supposed to tell you about?"
+      #Return
+    #End
+    #Say "Too bad."
+    #IfAskYN "Did you forget where it is?"
+      #Goto "Label_A"
+    #Say "Oh."
+    #Return
+  #End
+  #Say "Say... "
+
+  #IfAskYN "Wouldst thou get me a drink?"
+  #Begin
+     #Say "Good lad! Good lad! *hic!* Now,"
+
+    #IfAskYN "does ye' know of the Western Caves?"
+      #Say "Good."
+
+    :Label_A
+    #Say "Okay. They're west of here. *Hic!* One of"
+    #Say "he caves was an old prison it was."
+    #WaitForKey
+    #Endl
+    #Endl
+    #Say "*Hic.* *Burp*"
+    #WaitForKey
+    #Endl
+    #Endl
+    #Say "What was I talking about?"
+    #WaitForKey
+    #Endl
+    #Endl
+    #Say "Oh, da' caves. Okay there's an old room in"
+    #Say "there."
+    #WaitForKey
+    #Endl
+    #Endl
+    #Say "It's where I used to stash me alchyhol back"
+    #Say "in the. *Hic!* goood ol' days. Stashed a"
+    #Say "really good wine in there a while back."
+    #WaitForKey
+    #Endl
+    #Endl
+    #Say "Get me my wine back and I might be able to"
+    #Say "help ye'."
+    #WaitForKey
+    #Endl
+    #Endl
+
+    #IfAskYN "Got all that?"
+    #Begin
+      #IntEqu [GetDrink] 1
+      #Return
+    #End
+    #Goto "Label_A"
+  #End
+  #Say "Let me *hic!* know if ya' change your mind, that is."
+#Return
+
+:Talk_Trisk
+  #IfIntEqu [DrinkReturned] 1
+  #Begin
+    #Say "Trisk is south of the Disputed Territories."
+    #Say "You'll ave' to *hic!* get a boat to getch"
+    #Say "ober 'der lad."
+    #Return
+  #End
+
+  #Say "I know where Trisk is?"
+  #IfAskYN "Care to know?"
+  #Begin
+    #Say "If ye' wansta know you'll ave' to get"
+    #Say "me my drink."
+  #End
+  #Say "Aw."
+#Return
+
+:NoWine
+  #Say "You don't have my wine! What are you trying"
+  #Say "to pull?!"
+#Return
+^
+
+@DoorStop
+
+:PlayerOn
+  #Say "You enter your house. This very well may "
+  #Say "be the last time you see the old dwelling "
+  #Say "it's best you get your watch and "
+  #Say "everything out of your "
+  #Say "drawers."
+  #Writeln ""
+  #WaitForKey
+  #Zap "PlayerOn"
+#Return
+^
+
+@WeaponsMerchent
+%string "Weapon"
+%int    "StillTalking"
+
+:Talk
+  #IntEqu [StillTalking] 1
+
+  #Say "Hello Traveler and welcome to Black Shadow "
+  #Say "Armory. What can I interest you in?: "
+  #Endl
+
+  :DisplayWeapons
+    #Writeln "A: Club     50g"
+    #Writeln "B: Dagger   10g"
+    #Writeln "C: Sh Sword 100g"
+    #Writeln "D: Sling    60g"
+
+    #Endl
+    #Write "Your response"
+    #Write ">"
+  #GosubTalkResponse
+
+  #IfIntEqu [StillTalking] 1
+    #Goto "DisplayWeapons"
+#Return
+
+:Talk_A
+  #TakeGold 50 "TooPoor"
+  #GiveWeapon 1 1
+  #Endl
+  #Writeln "Purchased: Club"
+  #Endl
+#Return
+
+:Talk_B
+  #TakeGold 10 "TooPoor"
+  #GiveWeapon 2 1
+  #Endl
+  #Writeln "Purchased: Dagger"
+  #Endl
+#Return
+
+:Talk_C
+  #TakeGold 100 "TooPoor"
+  #GiveWeapon 10 1
+  #Endl
+  #Writeln "Purchased: Sh. Sword"
+  #Endl
+#Return
+
+:Talk_D
+  #TakeGold 60 "TooPoor"
+  #GiveWeapon 11 1
+  #Endl
+  #Writeln "Purchased: Sling"
+  #Endl
+#Return
+
+:Talk_Bye
+  #Say "May your travels go well."
+  #IntEqu [StillTalking] 0
+  #Endl
+#Return
+
+:TooPoor
+  #Say "You haven't the money! Be gone scurge!"
+  #IntEqu [StillTalking] 0
+  #Endl
+#Return
+^
+
+@FoodMerchant
+%int "StillTalking"
+
+:Talk
+  #IntEqu [StillTalking] 1
+  
+  #Say "Hello and welcome to the Landstan Tavern."
+  #Say "What can I get you?"
+  #Endl
+
+  :DisplayItems
+    #Writeln "A: Ale         10g"
+    #Writeln "B: 5 Rations   50g"
+    #Writeln "C: 50 Rations  250g"
+    #Writeln "D: 100 Rations 450g"
+  
+    #Endl
+    #Write "Your respone"
+    #Write ">"
+  #GosubTalkResponse
+
+  #IfIntEqu [StillTalking] 1
+    #Goto "DisplayItems"
+#Return
+
+:Talk_Bye
+   #Say "Come again!"
+   #Endl
+   #IntEqu [StillTalking] 0
+#Return
+
+:Talk_A
+  #TakeGold 10 "TooPoor"
+  #GiveFood 1
+  #Endl
+  #Writeln "Purchased: Ale"
+  #Endl
+#Return
+
+:Talk_B
+  #TakeGold 50 "TooPoor"
+  #GiveFood 5
+  #Endl
+  #Writeln "Purchased: 5 Rations"
+  #Endl
+#Return
+
+:Talk_C
+  #TakeGold 250 "TooPoor"
+  #GiveFood 50
+  #Endl
+  #Writeln "Purchased: 50 Rations"
+  #Endl
+#Return
+
+:Talk_D
+  #TakeGold 450 "TooPoor"
+  #GiveFood 100
+  #Endl
+  #Writeln "Purchased: 100 Rations"
+  #Endl
+#Return
+
+:TooPoor
+  #Say "You haven't the money. Come again."
+  #Endl
+  #IntEqu [StillTalking] 0
+#Return
+
+^
+

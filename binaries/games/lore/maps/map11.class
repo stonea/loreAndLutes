@@ -1,0 +1,25 @@
+@DeathDirector
+
+:Init
+  #TurnLightingOff
+  #ReDrawMap
+  #ClearNarate
+  #Narate "As you fall you awaken in a surreal "
+  #Narate "state. You are not sure whether this "
+  #Narate "new land you walk is in death or in "
+  #Narate "a dream."
+  #WaitForKey
+
+  #ReDrawMap
+  #ClearNarate
+  #Narate "But before you can explore this strange "
+  #Narate "place you awaken "
+  #Narate "and you find yourself "
+  #Narate "at your house in Lockanburg..."
+  #WaitForKey
+
+  #TurnLightingOn 
+  #Transport 9 5 42 57
+#Return
+^
+

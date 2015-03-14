@@ -1,0 +1,255 @@
+@SimPlayer
+
+:MoveEast
+  #MoveEast
+  #ReDrawMap
+  #Pause 1 300
+#Return
+^
+
+@SceneDirector
+
+:Init
+  #TurnLightingOff
+  #SetColor 0 0 0
+  #DrawFillRectangle 0 0 640 480
+  #RefreshScreen
+
+  #Narate "It all started with a void. "
+  #Narate "A pure black calm. An "
+  #Narate "emblem of serenity. "
+  #Narate " (Press any key to continue...)"
+  #WaitForKey
+
+  #MoveViewportTo 30 45
+  #ClearNarate
+  #DrawFillRectangle 0 0 640 480
+  #RefreshScreen
+  #Narate "And through the darkness came a vision."
+  #WaitForKey
+  #ClearNarate
+
+  #DoEffect 2
+  #Narate "You find yourself in a deep secluded "
+  #Narate "hallway that seems to stretch on for "
+  #Narate "eternity. Suddenly the calm stopped..."
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "Strange feelings start to surround you. "
+  #Narate "You begin to be possesed by "
+  #Narate "an unnerving willingness to explore "
+  #Narate "whatever lies beyond those two infinite "
+  #Narate "partitions. Beconed you "
+  #Narate "begin your walk..."
+  #WaitForKey
+
+  #ClearNarate
+  #Call "SimPlayer" "MoveEast"
+  #Call "SimPlayer" "MoveEast"
+  #Call "SimPlayer" "MoveEast"
+  #Call "SimPlayer" "MoveEast"
+  #Call "SimPlayer" "MoveEast"
+  #Call "SimPlayer" "MoveEast"
+
+  #MoveViewportTo 45 45
+  #DoEffect 2
+  #Narate "Eventually you find yourself in a room. "
+  #Narate "Centered in it is a long table, elaborate "
+  #Narate "tapastries cover the walls, and the ceiling "
+  #Narate "extends upward so high that the top "
+  #Narate "can not be seen. "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "You hear a man's footsteps "
+  #Narate "slowly pacing towards you. Ducking "
+  #Narate "behind a wall you see him enter the "
+  #Narate "room."
+  #WaitForKey
+
+  #Call "SimGuy" "MoveSouth"
+  #Call "SimGuy" "MoveSouth"
+  #Call "SimGuy" "MoveSouth"
+  #Call "SimGuy" "MoveSouth"
+  #Call "SimGuy" "MoveSouth"
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "As the man sits he sets a dagger on to "
+  #Narate "the table. Carved in the blade is a "
+  #Narate "detailed figure of a dragon. "
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "The man silenetly chants a few reserved "
+  #Narate "words. Then raises the dagger and strikes "
+  #Narate "himself in the arm!"
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "Quickly, without even pausing long enough "
+  #Narate "to show the slightest sensation of pain "
+  #Narate "he pulls a vile out of his robe and collects "
+  #Narate "his own dripping blood."
+  #WaitForKey
+
+  #ClearNarate
+  #DrawFillRectangle 0 0 640 480
+  #RefreshScreen
+  #Narate "And then the once again you are "
+  #Narate "surrounded by darkness."
+  #Narate " "
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #MoveViewportTo 33 30
+  #DoEffect 2
+  #Narate "You awaken when you hear a mans "
+  #Narate "yell of agony."  
+  #Narate " "
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "Suddenly you realize you just stabbed "
+  #Narate "your old friend and neighbor Quaffton! "
+  #Narate "He yells: \"Why the hell did "
+  #Narate "you do that!\""
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "Apologetically you start tending to his "
+  #Narate "wound and begin explaining your vision "
+  #Narate "to him. The two of you begin walking "
+  #Narate "home to Lockanburg. "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "Upon arrival Quaffton invites you into "
+  #Narate "his house."
+  #Narate " "
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #MoveViewportTo 59 27
+  #DoEffect 2
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "As you enter the room Quaffton pours a vile of "
+  #Narate "bubbling liquid onto his wound. It slowly begins to "
+  #Narate "heal right before your eyes."
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "Before you can begin to ask him how this liquid "
+  #Narate "could perform such an act Quaffton interrupts, "
+  #Narate "putting his hand on your shoulder. He starts to "
+  #Narate "speak."
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "\"Worry not of the wound. After all what harm could "
+  #Narate "a mere dagger do?!\" He chuckles to himself then "
+  #Narate "continues: \"You say you had a vision, is that "
+  #Narate "correct?\""
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "\"Yes.\""
+  #Narate " "
+  #Narate " "
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "Quaffton smiles, as if to say \"it worked\" then "
+  #Narate "returns to his normal stern face. "
+  #Narate " "
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "\"I think the room you described in your vision "
+  #Narate "really exists.\""
+  #Narate " "
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "\"Oh?\" You enquire. "
+  #Narate " "
+  #Narate " "
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "\"Indeed. Do you know of Trisk?\" "
+  #Narate " "
+  #Narate " "
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "\"No.\""
+  #Narate " "
+  #Narate " "
+  #NarAte " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "\"Find out then. Ask those around here of it. And "
+  #Narate "once you know the truth go forth and find the "
+  #Narate "answers to what this vision means.\""
+  #Narate " "
+  #WaitForKey
+
+  #ClearNarate
+  #ReDrawMap
+  #Narate "And it was with those simple words that your "
+  #Narate "journey began..."
+  #Narate " "
+  #Narate " "
+  #WaitForKey
+
+  #DrawImageEffect "logo.png" 15 150 2
+  #WaitForKey
+  
+  #TurnLightingOn
+  #Transport 9 5 42 71
+#Return
+^
+
+@SimGuy
+
+:MoveSouth
+  #MoveSouth
+  #Pause 1 200
+  #ReDrawMap
+#Return
+^
+

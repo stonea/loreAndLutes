@@ -1,0 +1,46 @@
+.items 0
+13
+"items/shield.png" 0 "Blessed shield" 20 50 1 0 0 0 
+"items/shield.png" 0 "Bronze shield" 20 30 1 0 0 0 
+"items/cap.png" 0 "Cap" 5 10 0 0 0 1 
+"items/armor.png" 0 "Chain mail" 30 50 0 0 1 0 
+"items/helm.png" 0 "Great helm" 20 40 0 0 0 1 
+"items/shield.png" 0 "Iron shield" 35 40 1 0 0 0 
+"items/helm.png" 0 "Leather helm" 10 20 0 0 0 1 
+"items/armor.png" 0 "Leather jacket" 20 20 0 0 1 0 
+"items/shield.png" 0 "Leather shield" 10 20 1 0 0 0 
+"items/helm.png" 0 "Mail coif" 15 30 0 0 0 1 
+"items/armor.png" 0 "Plate mail" 40 70 0 0 1 0 
+"items/armor.png" 0 "Ring mail" 25 40 0 0 1 0 
+"items/shield.png" 0 "Wooden shield" 10 10 1 0 0 0 
+
+
+17
+"items/bow.png" 0 "Bow" 5 60 8 2 0 0 0 
+"items/club.png" 0 "Club" 5 40 1 1 0 0 0 
+"items/dagger.png" 0 "Dagger" 1 50 3 1 0 0 0 
+"items/dagger.png" 0 "Dagger of Sc." 2 200 11 1 0 0 0 
+"items/halberd.png" 0 "Halberd" 20 80 1 4202369 0 0 0 
+"items/sword.png" 0 "Long Sword" 7 65 1 1 0 0 0 
+"items/mace.png" 0 "Mace" 10 65 1 1 0 0 0 
+"items/axe.png" 0 "Magic Axe" 7 110 11 1 0 0 0 
+"items/bow.png" 0 "Magic Bow" 5 40 11 2 0 0 0 
+"items/spear.png" 0 "Magic Spear" 3 40 11 1 0 0 0 
+"items/sword.png" 0 "Short Sword" 5 55 1 1 0 0 0 
+"items/sling.png" 0 "Sling" 2 25 6 2 0 0 0 
+"items/spear.png" 0 "Spear" 3 35 5 1 0 0 0 
+"items/axe.png" 0 "Throwing Axe" 2 55 4 1 0 0 0 
+"items/twohaxe.png" 0 "Two Handed Axe" 20 70 1 2 0 0 0 
+"items/sword.png" 0 "Two Handed Sword" 20 80 1 2 0 0 0 
+"error.png" 0 "MON: Bite" 1 50 1 0 0 0 0 
+
+
+6
+"items/watch.png" 0 "Watch" 0 "Object1" "item_watch" 
+"items/shield.png" 0 "Potion" 3 "Talker" "" 
+"items/wine.png" 0 "Wine" 0 "" "item_wine" 
+"items/book.png" 0 "Book: Movement" 0 "" "item_bk_movement" 
+"items/fruit.png" 0 "Fruit" 0 "" "Item_None" 
+"items/key.png" 0 "Key" 0 "" "Item_Key" 
+
+

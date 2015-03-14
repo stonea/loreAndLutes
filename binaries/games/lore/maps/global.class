@@ -1,0 +1,150 @@
+@Talker
+$string "GreetingMsg"
+$string "HuhMsg"
+$string "ByeMsg"
+%int    "StillTalking"
+
+:Talk
+  #IfOnTerrainGroup "sleep"
+  #Begin
+    #Say "Zzzzz"
+    #Endl
+    #Endl
+    #Return
+  #End
+
+  #IntEqu [StillTalking] 1
+
+  #Writeln [GreetingMsg]
+
+  :Loop
+    #Endl
+    #Writeln "You Respond:"
+    #Write ">"
+    #GosubTalkResponse
+  #IfIntEqu [StillTalking] 1
+    #Goto "Loop"
+
+#Return
+
+:Talk_What
+  #Say [HuhMsg]
+  #Endl
+#Return
+
+:Talk_Bye
+  #Say [ByeMsg]
+  #Endl
+  #Endl
+  #IntEqu [StillTalking] 0
+#Return
+^
+
+@Candles
+
+:Look
+  #Writeln "You see candles."
+#Return
+
+:Talk
+  #CallNorth "talk"
+  #CallSouth "talk"
+#Return
+^
+
+@Sign
+$string "SignText"
+
+:Look
+#ClearScroll
+#ScrollOn
+  #Write "----------------------------------------------------"
+  #Write "                  Written on the sign:              "
+  #Write "----------------------------------------------------"
+  #Write [SignText]
+#ViewScroll
+#ScrollOff
+#Return
+
+^
+
+@Pushable
+
+:Push
+  #push
+#Return
+
+
+^
+
+@BattleRoom
+$int "BattleRoom"
+$int "Monster"
+
+:PlayerOn
+  #Endl
+  #Endl
+  #Write "Entering battle Room"
+  #Endl
+  #Endl
+  #Battle [Monster] [BattleRoom]
+#Return
+
+^
+
+@TalkPinger
+
+:Talk
+  #CallNorth "talk"
+  #CallSouth "talk"
+#Return
+
+^
+
+@LockedDoor
+
+:Look
+  #Writeln "You see a locked door"
+  #IfAskYN "Jimmy lock?"
+  #Begin
+    #TakeScriptedItem 5 1 "TooPoor"
+    #Say "Unlocked!"
+    #Die
+    #Return
+  #End
+  #Endl
+#Return
+
+:TooPoor
+  #Writeln "You have no keys!"
+  #Endl
+#Return
+
+^
+
+@Bed
+%int "iSleepFor"
+
+:Look
+  #Writeln "Its a bed."
+#Return
+
+:Onkey_c
+  #Endl
+  #Writeln "Rest on bed."
+  #AskInt [iSleepFor] "Sleep for how many hours?"
+  #IfIntGT [iSleepFor] 24
+    #IntEqu [iSleepFor] 24
+  #IfIntLT [iSleepFor] 0
+    #IntEqu [iSleepFor] 0
+  #Endl
+  #Say "Resting for:"
+  #SayInt [iSleepFor]
+  #Say "Hours."
+  #Endl
+  #Endl
+  #DoEffect 3
+  #Sleep [iSleepFor] 10 7
+#Return
+^
+

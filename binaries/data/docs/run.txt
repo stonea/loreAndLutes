@@ -1,0 +1,13 @@
+===================================================
+                 Lore And Lutes
+                 By: Andy Stone
+                 Documentation
+===================================================
+                The L&L Runner
+===================================================
+  Welcome to the Lore And Lutes runner. Each L&L
+game may function differntly but generally you
+can play a game keeping these few instructions in
+mind:
+
+<Blaa blaa Blaa>

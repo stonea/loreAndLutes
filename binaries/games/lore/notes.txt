@@ -1,0 +1,12 @@
+* * * * *
+* XYZZY *
+* * * * *
+Hello                                     World
+This is the notes file isn't it spiffy?
+The notes file is here to contain any text
+that you think is worthy to jot down. You can
+use the notes file to record various thoughts
+while you create your game, or you can use
+it to include information about the game so when
+people edit it they have a nice bit of notes
+about it. Get it? Okay good. Yup.

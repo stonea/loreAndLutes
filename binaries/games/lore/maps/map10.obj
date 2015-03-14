@@ -1,0 +1,25 @@
+.obj 0 ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  ! 0  ! 8 47 44 3 0 "error.png" "SCENEDIRECTOR" "SCENEDIRECTOR" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 35 50 3 0 "creatures/player_e.png" "SIMPLAYER" "SIMPLAYER" 1969317477 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 50 44 3 0 "creatures/mvillager02_s.png" "SIMGUY" "SIMGUY" 1969317477 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 40 34 3 0 "creatures/mvillager02_s.png" "SIMGUY" "AGUY1" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 38 35 3 0 "creatures/player_e.png" "SIMGUY" "AGUY10" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 64 34 3 0 "creatures/mvillager02_n.png" "SIMGUY" "AGUY11" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 64 32 3 0 "creatures/player_s.png" "SIMGUY" "AGUY100" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 67 34 2 0 "objects/bed3.png" "bed" "bede" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 

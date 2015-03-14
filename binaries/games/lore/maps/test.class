@@ -1,0 +1,251 @@
+@Boat
+
+:PlayerOn
+  #SetPlayerVehicle 0
+#Return
+^
+
+@ErrorSetter
+#Say ""
+#Say "No er\"ror"
+#Say " No Error"
+
+#Return
+^
+
+:Init
+
+#ScrollOn
+#ClearScroll
+#SetFont 0
+
+#Write "----------------------------------------------------"
+#Write "    Use arrow keys to scroll information up\\down   "
+#Write "          Press esc to stop and enter game          "
+#Write "----------------------------------------------------"
+#Write "                                                    "
+#Write "               Dungeon  Graystone                   "
+#Write "                 By: Andy Stone                     "
+#Write "            ~= ------------------ = ~               "
+#Write "                                                    "
+#Write "  Far in the western mountains of the disputed      "
+#Write "territory near the Staltsarian border lays a dungeon"
+#Write "that now serves as a constant stigmatic reminder of "
+#Write "this controlversial territory. Graystone, as it was "
+#Write "called, served as a prison for those who commited   "
+#Write "the abominations of past disputes. Although its     "
+#Write "occupants undeniably consisted of the purest vermin "
+#Write "of society the prison remained no greater in its    "
+#Write "virtue. Lore now tells the story of the harrowing   "
+#Write "tortures endured by the inmates. They are now said  "    
+#Write "to haunt within the dusky dungeon walls.            "
+#Write "                                                    "
+#Write "  With such ghastly tales passing from generation to"
+#Write "generation lore and gossip surely did arise. The    "
+#Write "unearthly tales of the prison's haunted eminence    "        
+#Write "catalyzed the belief that the dungeon contained some"
+#Write "mystic powers that could be captured. Most notable  "
+#Write "is the belief that the dungeon regains its spectral "
+#Write "powers from a large diamond that lies in the        "
+#Write "dungeon's deep cavernous regions.                   "
+#Write "                                                    "
+#Write "  Esuriend for a wantonness life you began to       "
+#Write "believe such tales. Constantly beaconed by a calling"
+#Write "to retrieve the fabled diamond you began your long  "
+#Write "journey into Dungeon Graystone.                     "
+#Write "----------------------------------------------------"
+#Write " "
+#Write "How to play: "
+#Write " "
+#Write "  Use the arrow keys to move around the dungeon.    "
+#Write "through your journeys you'll encounter many         "
+#Write "interesting things. Use the L key to look at        "
+#Write "something if you're not sure what it is."
+#Write " "
+#Write "Be sure to experiment around. If something looks out"
+#Write "place try looking at it and searching it. When you  "
+#Write "get a new item use it. The keys you can use in this "
+#Write "game, and about any other L&L game are: "
+#Write " "
+#Write "UP ARROW:    Move north"
+#Write "DOWN ARROW:  Move south"
+#Write "LEFT ARROW:  Move west"
+#Write "RIGHT ARROW: Move east"
+#Write "ESC          Quit game"
+#Write "R            Ready (equip a weapon for battle)"
+#Write "T            Talk"
+#Write "U            Use item in inventory"
+#Write "P            Push"
+#Write "A            Attack"
+#Write "S            Search"
+#Write "G            Get and put into inventory"
+#Write "H            Help!"
+#Write "K            Climb"
+#Write "L            Look"
+#Write "Z            View statistics and inventory"
+#Write "C            Cast spell"
+#Write " "
+#Write " "
+#Write "Tips for playing: "
+#Write " "
+#Write " * Make sure you look at all signs often times they "
+#Write "   provide hints"
+#Write " * When in the village talk to everybody! Remember  "
+#Write "   you can always ask a villager what they're name  "
+#Write "   and job are. "
+#Write " * Don't be afraid to flee from a battle if it looks"
+#Write "   like you'll lose. "
+#Write " * Save often! "
+#Write "----------------------------------------------------"
+
+#ViewScroll
+#ScrollOff
+
+#Return
+
+^
+
+@ExitBlocker
+
+:PlayerOn
+  #Say "You can't exit the dungeon yet."
+  #Endl
+#Return
+
+^
+
+@DazedGaurd
+>Talker
+
+:Talk_Name
+  #Say "What name"
+#Return
+
+:Talk_Job
+  #Say "Death."
+#Return
+^
+
+@GiveMember
+
+:Talk
+  #GivePlayer 0
+#Return
+
+^
+
+@RecordTest
+%int "mark"
+%string "string"
+
+:Talk
+  #IntToStr [string] [mark]
+  #Say [string]
+  #IntInc [mark]
+#Return
+^
+
+@Object1
+
+:Call
+  #Writeln "Object 1 Called"
+#Return
+
+^
+
+@Object2
+
+:Talk
+  #pingclassAndDeriv "object1" "new"
+#Return
+
+^
+
+@Object3
+
+:New
+  #Say "This is object 3"
+#Return
+
+^
+
+@Object1Deriv
+>Object1
+
+:Call
+  #Say "Called the derivative"
+#Return
+
+^
+
+
+:Init
+#ClearScroll
+#SetFont 0
+#ScrollOn
+
+#Write "      Dungeon Graystone"
+#Write "  ~ =-------------------= ~ "
+#Write " "
+#Write "Welcome to Dungeon Graystone. Dungeon "
+#Write "graystone is a short game that displays "
+#Write "the abilities of the Lore And Lutes "
+#Write "engine. "
+#Write " "
+#Write "Story"
+#Write "-----"
+#Write " Far into the western Landanian mountains "
+#Write "lies an old dungeon where prisoners of "
+#Write "the rebellion were captured and tortured. "
+#Write "It's been near over 100 years since the "
+#Write "old prison was used. Lore tells that the "
+#Write "dungeon is now haunted by the ghosts of "
+#Write "war."
+#Write " "
+#Write " Near 150 years past a wealthy Unitarian "
+#Write "knight was captured and tortured in "
+#Write "the graystone prison. Yet he somehow "
+#Write "escaped. It is said the knight left "
+#Write "behind a diamond he stole from the emporer"
+#Write "His motives for such are yet unknown. The"
+#Write "diamond is said to hold a magnificent "
+#Write "incandescence and possess omnipotent "
+#Write "magical powers. "
+#Write " "
+#Write " The knights tale drew the upon the souls "
+#Write "of the greedy to travel to the prison "
+#Write "where the died. Elders now tell this "
+#Write "story to teach of the price of insolance "
+#Write "yet it's morals only beacon you to "
+#Write "achieve the goals of retrieving the "
+#Write "diamond. Self assured you begin to "
+#Write "travel west and enter the dungeon..."
+#Write " "
+#Write " "
+#Write " "
+#Write "To start off know these simple commands: "
+#Write " "
+#Write "Key   Action"
+#Write "------------"
+#Write "Left   Move west"
+#Write "Right  Move east"
+#Write "Up     Move north"
+#Write "Down   Move south"
+#Write "ESC    Exit game"
+#Write "T      Talk"
+#Write "U      Use"
+#Write "A      Attack"
+#Write "S      Search"
+#Write "G      Get"
+#Write "L      Look"
+#Write " "
+#Write "Throughout the game you'll encounter "
+#Write "signs. These signs display important "
+#Write "information that will help you in your "
+#Write "adventure."
+
+#ViewScroll
+#ScrollOff
+#Return
+^
+

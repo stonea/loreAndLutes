@@ -1,0 +1,152 @@
+.obj 0 ! 1 43 60 3 0
+ ! 0  ! 0  ! 0  ! 1 12 44 2 0
+ ! 27 41 54 3 "objects/drawers.png" 0 0 1 1 2 3 1 
+ 40 54 3 "objects/drawers.png" 0 0 1 3 0 50 1 
+ 39 77 3 "objects/sack.png" 0 1 1 3 0 150 1 
+ 23 60 3 "objects/barrel.png" 0 0 0 
+ 22 60 3 "objects/barrel.png" 0 0 0 
+ 21 60 3 "objects/barrel.png" 0 0 0 
+ 20 60 3 "objects/barrel.png" 0 0 0 
+ 20 59 3 "objects/barrel.png" 0 0 0 
+ 26 39 3 "objects/barrel.png" 0 0 0 
+ 26 40 3 "objects/barrel.png" 0 0 0 
+ 27 39 3 "objects/barrel.png" 0 0 0 
+ 27 41 3 "objects/barrel.png" 0 0 0 
+ 26 41 3 "objects/barrel.png" 0 0 0 
+ 20 24 3 "objects/barrel.png" 0 0 0 
+ 20 25 3 "objects/barrel.png" 0 0 0 
+ 20 26 3 "objects/barrel.png" 0 0 0 
+ 19 26 3 "objects/barrel.png" 0 0 0 
+ 18 26 3 "objects/barrel.png" 0 0 0 
+ 19 25 3 "objects/barrel.png" 0 0 0 
+ 18 60 3 "objects/barrel.png" 0 0 0 
+ 17 60 3 "objects/barrel.png" 0 0 0 
+ 10 60 3 "objects/barrel.png" 0 0 0 
+ 11 60 3 "objects/barrel.png" 0 0 0 
+ 14 60 3 "objects/barrel.png" 0 0 0 
+ 13 60 3 "objects/barrel.png" 0 0 0 
+ 16 60 3 "objects/barrel.png" 0 0 0 
+ 41 68 3 "objects/drawers.png" 0 0 1 5 34251548 5 1 
+  ! 2 17 24 2 "transports/stairsdn.png" 0 9 17 40 4 1 0 0 0 0 0 
+ 17 39 2 "transports/stairsup.png" 0 9 17 25 4 1 0 0 0 0 0 
+  ! 0  ! 40 44 54 2 0 "objects/chair_s.png" "PUSHABLE" "CHAIR" 1969317477 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 44 56 2 0 "objects/chair_n.png" "PUSHABLE" "CHAIR0" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 44 55 4 0 "objects/candles.png" "CANDLES" "CANDLES" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 40 60 3 0 "objects/liltable.png" "PUSHABLE" "TABLE" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 40 59 2 0 "objects/chair_s.png" "PUSHABLE" "CHAIR1" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 41 60 2 0 "objects/chair_w.png" "PUSHABLE" "CHAIR2" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 39 57 2 0 "carpet.png" "DOORSTOP" "DOORSTOP" 1969317477 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 27 44 3 0 "creatures/merchant_s.png" "WEAPONSMERCHENT" "WEAPONSMERCHANT" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+8 0 32 39 0 0 6 30 1 0 27 44 6 30 9 0 1 0 27 44 9 0 12 0 1 0 12 57 12 0 13 30 1 0 27 44 13 30 17 0 1 0 12 57 17 0 18 30 1 0 27 44 18 30 22 0 1 0 32 39 22 0 23 59 1 
+ 30 58 2 0 "objects/chair_n.png" "PUSHABLE" "CHAIR7" 1969317477 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 30 56 2 0 "objects/chair_s.png" "PUSHABLE" "CHAIR8" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 41 72 2 0 "objects/chair_s.png" "PUSHABLE" "CHAIR9" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 41 74 2 0 "objects/chair_n.png" "PUSHABLE" "CHAIR10" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 20 67 4 0 "objects/candles.png" "CANDLES" "CANDLES1" 1969317477 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 20 66 2 0 "objects/chair_s.png" "PUSHABLE" "CHAIR11" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 20 68 2 0 "objects/chair_n.png" "PUSHABLE" "CHAIR12" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 31 40 2 0 "objects/chair_s.png" "PUSHABLE" "CHAIR13" 1969317477 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 27 45 4 0 "objects/candles.png" "CANDLES" "CANDLES0" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 30 57 4 0 "objects/candles.png" "CANDLES" "CANDLES2" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 17 55 4 0 "objects/candles.png" "CANDLES" "CANDLES3" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 11 55 4 0 "objects/candles.png" "CANDLES" "CANDLES4" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 41 73 4 0 "objects/candles.png" "CANDLES" "CANDLES5" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 13 59 3 0 "objects/blank.png" "TALKPINGER" "TALKPING0" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 14 58 3 0 "objects/blank.png" "TALKPINGER" "TALKPING10" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 15 58 3 0 "objects/blank.png" "TALKPINGER" "TALKPING11" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 13 58 3 0 "objects/blank.png" "TALKPINGER" "TALKPING12" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 12 58 3 0 "objects/blank.png" "TALKPINGER" "TALKPING13" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 13 59 3 0 "creatures/merchant_n.png" "FOODMERCHANT" "FOODMERCHANT000" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+8 0 28 39 0 0 5 30 1 0 21 59 5 30 6 30 1 1 14 59 6 30 11 0 1 1 22 58 11 0 12 0 1 1 14 59 12 0 13 30 1 1 22 58 13 30 14 30 1 1 14 59 14 30 22 0 1 0 28 39 22 0 23 59 1 
+ 44 73 3 0 "creatures/mvillager02_s.png" "QUAFFTON" "QUAFFTON" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+8 0 44 74 0 0 6 30 1 0 41 74 6 30 9 0 1 0 41 72 9 0 12 0 1 0 11 54 12 0 13 30 1 1 42 64 13 30 17 0 1 0 11 54 17 0 18 30 1 0 11 54 18 30 22 0 1 0 44 74 22 0 23 59 1 
+ 23 65 3 0 "creatures/fvillager01_s.png" "TRILLIA" "TRILLIA" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+8 0 23 64 0 0 6 30 1 0 20 68 6 30 9 0 1 1 13 67 9 0 12 0 1 0 20 68 12 0 13 30 1 1 13 67 13 30 17 0 1 0 17 54 17 0 18 30 1 0 20 68 18 30 22 0 1 0 23 64 22 0 23 59 1 
+ 19 65 3 0 "creatures/mvillager01_s.png" "JOSEPH" "JOSEPH" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+8 0 19 64 0 0 6 30 1 0 20 66 6 30 9 0 1 1 13 67 9 0 12 0 1 0 20 66 12 0 13 30 1 1 13 67 13 30 17 0 1 0 17 56 17 0 18 30 1 0 17 56 18 30 22 0 1 0 19 64 22 0 23 59 1 
+ 19 64 2 0 "objects/bed1.png" "BED" "BEDW" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 44 74 2 0 "objects/bed3.png" "BED" "BEDE" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 23 64 2 0 "objects/bed3.png" "BED" "BEDE0" -2127112109 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 27 59 3 0 "creatures/fvillager02_s.png" "JEANA" "JEANA" 1969317477 50 50 50 0 0 30 30 5 0
+0 0 0 
+7 0 27 60 0 0 6 30 1 1 29 68 6 30 12 0 1 0 11 56 12 0 13 30 1 1 29 68 13 30 17 0 1 0 11 56 17 0 18 30 1 0 30 56 18 30 22 0 1 0 27 60 22 0 23 59 1 
+ 31 59 3 0 "creatures/mvillager03_s.png" "HARRIS" "HARRIS" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+5 0 31 60 0 0 9 0 1 0 15 57 9 0 13 30 1 0 31 60 13 30 15 0 1 0 15 57 15 0 22 0 1 0 31 60 22 0 23 59 1 
+ 27 60 2 0 "objects/bed1.png" "BED" "BEDW0" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 31 60 2 0 "objects/bed3.png" "BED" "BEDE1" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 32 39 2 0 "objects/bed3.png" "BED" "BEDE2" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 28 39 2 0 "objects/bed1.png" "BED" "BEDW2" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 45 60 2 0 "objects/bed3.png" "BED" "BEDE3" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 

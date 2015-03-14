@@ -1,0 +1,256 @@
+.obj 0 ! 0  ! 0  ! 0  ! 40 15 15 3 5
+28 27 3 5
+47 35 3 5
+36 40 3 5
+36 37 3 5
+36 49 3 5
+29 59 3 5
+37 69 3 5
+22 69 3 5
+17 69 3 5
+12 54 3 5
+8 37 3 5
+18 7 3 5
+41 12 3 5
+46 27 3 5
+56 32 3 5
+61 27 3 5
+66 22 3 5
+71 27 3 5
+71 37 3 5
+66 42 3 5
+81 47 3 5
+86 62 3 5
+80 68 3 5
+80 78 3 5
+70 78 3 5
+60 76 3 5
+45 74 3 5
+30 74 3 5
+29 76 3 5
+27 76 3 5
+27 74 3 5
+24 76 3 5
+25 77 3 5
+30 77 3 5
+32 75 3 5
+32 73 3 5
+25 73 3 5
+17 73 3 5
+17 71 3 5
+ ! 0  ! 0  ! 0  ! 0  ! 51 57 28 4 0 "objects/candles.png" "CANDLES" "CANDLES" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 48 4 3 0 "objects/mountedsign.png" "SIGN" "SIGN" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "Welcome to Kharist."
+0 0 
+0 
+ 52 4 3 0 "objects/mountedsign.png" "SIGN" "SIGN0" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "Welcome to Kharist."
+0 0 
+0 
+ 55 14 3 0 "objects/mountedsign.png" "SIGN" "SIGN00" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "General Storage. See Eddy for rental information."
+0 0 
+0 
+ 76 14 3 0 "objects/mountedsign.png" "SIGN" "SIGN000" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "SpearEdge Arms"
+0 0 
+0 
+ 70 36 3 0 "objects/mountedsign.png" "SIGN" "SIGN0000" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "WayWort Inn. Guest Entrance."
+0 0 
+0 
+ 68 36 3 0 "objects/mountedsign.png" "SIGN" "SIGN0001" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "Waywort Inn. Guest Entrance."
+0 0 
+0 
+ 76 29 3 0 "objects/sign.png" "SIGN" "SIGN00000" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "WayWort Inn."
+0 0 
+0 
+ 55 31 3 0 "objects/mountedsign.png" "SIGN" "SIGN00010" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "Harroldson Residence."
+0 0 
+0 
+ 55 36 3 0 "objects/mountedsign.png" "SIGN" "SIGN000100" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "Valvindale Residence."
+0 0 
+0 
+ 24 14 3 0 "objects/mountedsign.png" "SIGN" "SIGN0001000" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "Trannanteck Arms"
+0 0 
+0 
+ 24 28 3 0 "objects/sign.png" "SIGN" "SIGN0000000" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "West Kharist Inn.
+Current Prices are cheap!"
+0 0 
+0 
+ 50 7 3 0 "objects/sign.png" "SIGN" "SIGN0000001" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "BEWARE:
+
+  This city is currently being disputed over.
+Enter at your own risk!"
+0 0 
+0 
+ 48 69 3 0 "objects/mountedsign.png" "SIGN" "SIGN000101" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "<------ Westward
+
+ * (300) General Room Rentals
+ * (301) Hydralink Armory
+ * (302) General Market
+ * (303) Kharist General Records
+ * (304) Kharist Merchants' Guild
+ * (305) Kharist Government"
+0 0 
+0 
+ 52 69 3 0 "objects/mountedsign.png" "SIGN" "SIGN0001010" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "----> Eastward:
+
+ * (100) Kharist office of magic.  
+ * (101) Eddy's Residential and Retail Rental.
+ * (102) Private Chambers
+ * (106) Smith's Ships
+ * (107) Offices
+ * (108) Kharist General Library
+ * (109) Kharist Library of Magic
+ * School Of Magic"
+0 0 
+0 
+ 55 69 3 0 "objects/mountedsign.png" "SIGN" "SIGN00010100" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(100) Kharist Office of Magic."
+0 0 
+0 
+ 62 69 3 0 "objects/mountedsign.png" "SIGN" "SIGN000101000" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(101) Eddy's Residential and Retail Rental."
+0 0 
+0 
+ 65 69 3 0 "objects/mountedsign.png" "SIGN" "SIGN0001010000" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(102) PRIVATE CHAMBERS. DO NOT ENTER!"
+0 0 
+0 
+ 55 72 3 0 "objects/mountedsign.png" "SIGN" "SIGN00010100000" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(106) Smith's Ships"
+0 0 
+0 
+ 62 72 3 0 "objects/mountedsign.png" "SIGN" "SIGN000101000000" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(107) Offices"
+0 0 
+0 
+ 65 73 3 0 "objects/mountedsign.png" "SIGN" "SIGN00010100001" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(109) Kharist Library of Magic"
+0 0 
+0 
+ 66 71 3 0 "objects/sign.png" "SIGN" "SIGN000101000010" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(108) Kharist General Library"
+0 0 
+0 
+ 75 76 3 0 "objects/sign.png" "SIGN" "SIGN0001010000100" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "KHARIST SCHOOL OF MAGIC
+=======================
+
+Open: Sunday  - Saturday
+      9:00 am - 9:00 pm
+
+Cost of Admission: 900 Gold / 3 month study."
+0 0 
+0 
+ 49 72 3 0 "objects/mountedsign.png" "SIGN" "SIGN0001011" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "Welcome to South Wall Chambers.
+
+South Wall General Office (South)"
+0 0 
+0 
+ 28 60 3 0 "objects/mountedsign.png" "SIGN" "SIGN0001012" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(305) Official Chambers of the Kharist Government.
+
+DO NOT ENTER!"
+0 0 
+0 
+ 21 62 3 0 "objects/sign.png" "SIGN" "SIGN0001010000101" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(304) Kharist Merchants' Guild"
+0 0 
+0 
+ 46 72 3 0 "objects/mountedsign.png" "SIGN" "SIGN00010110" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "(300) South Wall General Room Rentals:
+
+30 gold / month"
+0 0 
+0 
+ 35 72 3 0 "objects/mountedsign.png" "SIGN" "SIGN0001013" 255 50 50 50 0 0 30 30 5 0
+1 "SignText" "NOTICE! These Chambers have been Annexed
+by the Stalsarian Army for use by their
+soldiers. DO NOT ENTER THESE CHAMBERS or you
+risk being killed!"
+0 0 
+0 
+ 52 37 3 0 "tree2.png" "TREEOFTRISK" "TREE" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 50 44 3 0 "tree2.png" "TREEOFTRISK" "TREE0" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 46 49 3 0 "tree2.png" "TREEOFTRISK" "TREE1" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 56 46 3 0 "tree2.png" "TREEOFTRISK" "TREE2" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 54 50 3 0 "tree2.png" "TREEOFTRISK" "TREE3" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 52 52 3 0 "tree2.png" "TREEOFTRISK" "TREE4" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 48 52 3 0 "tree2.png" "TREEOFTRISK" "TREE5" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 46 54 3 0 "tree2.png" "TREEOFTRISK" "TREE6" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 45 46 3 0 "tree2.png" "TREEOFTRISK" "TREE7" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 47 43 3 0 "tree2.png" "TREEOFTRISK" "TREE8" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 50 47 3 0 "tree2.png" "TREEOFTRISK" "TREE9" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 53 47 3 0 "tree2.png" "TREEOFTRISK" "TREE10" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 50 50 3 0 "tree2.png" "TREEOFTRISK" "TREE11" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 48 48 3 0 "tree2.png" "TREEOFTRISK" "TREE12" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 53 42 3 0 "tree2.png" "TREEOFTRISK" "TREE13" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 58 44 3 0 "tree2.png" "TREEOFTRISK" "TREE14" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 60 47 3 0 "tree2.png" "TREEOFTRISK" "TREE15" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 57 51 3 0 "tree2.png" "TREEOFTRISK" "TREE16" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 55 55 3 0 "tree2.png" "TREEOFTRISK" "TREE17" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 52 58 3 0 "tree2.png" "TREEOFTRISK" "TREE18" 255 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 43 20 2 0 "objects/bed1.png" "bed" "bedw" 1527633468 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 43 21 2 0 "objects/bed1.png" "bed" "bedw0" 0 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 43 27 2 0 "objects/bed1.png" "bed" "bedw1" 65280 50 50 50 0 0 30 30 5 0
+0 0 0 
+0 
+ 

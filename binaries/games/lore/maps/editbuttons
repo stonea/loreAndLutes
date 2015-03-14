@@ -1,0 +1,171 @@
+=========================
+Editor top bar interface:
+=========================
+
+Main editor (ME_)
+C 1: Map options
+C 2: Terrains
+C 3: Items
+C 4: Monsters
+C 5: Vehicles
+C 6: Scripting
+C 7: Transports
+C 8: Decorations
+C 9: User configured menu
+C 0: Edit players set
+C -: Toggle routing mode
+C +: Special views
+Transports
+
+Map Options (Information) (MO_)
+C 1: Save map
+C 2: Load map
+C 3: Switch map
+C 4: Switch to battle map
+C 5: Clear map
+C 6: Map Information
+C 7: Global Information
+C 8: Move cursor to
+C 9: Previous layer
+C 0: Next layer
+C -: Help! 
+C +: About Lore and Lutes
+
+Terrains (TR_)
+C 1: Edit terrain set
+C 2: Choose current terrain
+C 3: Previous terrain
+C 4: 2nd previous terrain
+C 5: 3rd previous terrain
+C 6: 4th previous terrain
+C 7: 5th previous terrain
+C 8: 6th previous terrain
+C 9: 7th previous terrain
+C 0: 8th previous terrain
+C -: 9th previous terrain
+C +: 10th previous terrain
+
+Items (IT_)
+C 1: Edit item set
+C 2: Place item
+C 3: Place blank chest  (t)
+C 4: Place bag of gold  (t)
+C 5: Place pile of food (t)
+C 6: 
+C 7: 
+C 8: 
+C 9: 
+C 0: 
+C -: 
+C +: 
+
+Monsters (MS_)
+C 1: Edit monster set
+C 2: Edit vehicle \ battle keys
+C 3: Place enemy
+C 4: 
+C 5: 
+C 6: 
+C 7: 
+C 8: 
+C 9: 
+C 0: 
+C -: 
+C +: 
+
+Vehicles (VE_)
+C 1: Edit vehicle set
+C 2: Edit vehicle objects set
+C 3: Edit vehicle \ battle keys
+C 4: Place vehicle object
+C 5: 
+C 6: 
+C 7: 
+C 8: 
+C 9: 
+C 0: 
+C -: 
+C +: 
+
+Scripting (SC_)
+C 1: Local classes
+C 2: Global classes
+C 3: Global script
+C 4: Place object
+C 5: 
+C 6: 
+C 7: 
+C 8: 
+C 9: 
+C 0: 
+C -: 
+C +: 
+
+Transports (TR_)
+C 1: Plot transport
+C 2: Plot stairs (t)
+C 3: Plot ladder (t)
+C 4: Plot cave (t)
+C 5: Plot village (t)
+C 6: Plot town (t)
+C 7: Plot city (t)
+C 8: Plot castle (t)
+C 9: 
+C 0: 
+C -: 
+C +: 
+
+Special views (SV_)
+C 1: Gem view
+C 2: Highlight all objects
+C 3: Help
+C 4: Jot notes
+C 5: 
+C 6: 
+C 7: 
+C 8: 
+C 9: 
+C 0: 
+C -: 
+C +: 
+
+Decorations (DE_)
+C 1: Plot chair (t)
+C 2: Plot small table (t)
+C 3: Plot fire place (t)
+C 4: Plot candles (t)
+C 5: 
+C 6: 
+C 7: 
+C 8: 
+C 9: 
+C 0: 
+C -: 
+C +: 
+
+User configured menu (UC_)
+C 1: Plot user defined template object 1
+C 2: Plot user defined template object 2
+C 3: Plot user defined template object 3
+C 4: Plot user defined template object 4
+C 5: Plot user defined template object 5
+C 6: Plot user defined template object 6
+C 7: Plot user defined template object 7
+C 8: Plot user defined template object 8
+C 9: Plot user defined template object 9
+C 0: Plot user defined template object 10
+C -: Plot user defined template object 11
+C +: Edit user configured menu
+
+C 1: 
+C 2: 
+C 3: 
+C 4: 
+C 5: 
+C 6: 
+C 7: 
+C 8: 
+C 9: 
+C 0: 
+C -: 
+C +: 

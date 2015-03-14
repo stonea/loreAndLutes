@@ -1,0 +1,622 @@
+@Ickarus
+>Talker
+%int "MissionStarted"
+
+:Init
+  #IntEqu [MissionStarted] 0
+  #Zap "Init"
+#Return
+
+:Talk_Name
+  #Say "Ickarus."
+#Return
+
+:Talk_Work
+:Talk_Job
+  #Say "I play my tunes on this 'ere lute."
+#Return
+
+:Talk_Tune
+:Talk_Tunes
+  #Say "Once a many 'ear ago."
+  #WaitForKey
+  #Endl
+  #Endl
+  #Say "People didn't live so low"
+  #WaitForKey
+  #Endl
+  #Endl
+  #Say "Along came war"
+  #WaitForKey
+  #Endl
+  #Endl
+  #Say "Which casted horror"
+  #WaitForKey
+  #Endl
+  #Endl
+  #Say "And now they think of shame"
+  #WaitForKey
+  #Endl
+  #Endl
+  #IfAskYN "Good, eh?"
+  #Begin
+     #Say "Not many appreciate fine art."
+     #Return
+  #End
+    #Say "People don't understand my tunes."
+#Return
+
+:Talk_Lute
+  #Say "I tell stories of Lore."
+#Return
+
+:Talk_Lore
+  #Say "And war!"
+#Return
+
+:Talk_War
+  #Say "And horror!"
+#Return
+
+:Talk_Horro
+  #Say "And... umm. Snore?"
+#Return
+
+:Talk_Snore
+  #Say "Ran out of rhymes."
+#Return
+
+:Talk_Rhyme
+  #Say "I haven't the time."
+#Return
+
+:Talk_Time
+  #Say "Now act like a mime!"
+#Return
+
+:Talk_Mime
+  #Say "That means be quiet."
+#Return
+
+:Talk_Quiet
+  #Say "Like a mime."
+#Return
+
+:Talk_Move
+:Talk_Movem
+  #IfIntEqu [MissionStarted] 1
+  #Begin
+    #IfAskYN "Have you completed your mission"
+    #Begin
+      #TakeScriptedItem 4 1 "TooPoor"
+        #Say "Good job, comrade. Now it is time for your"
+        #Say "congratulations...."
+        #WaitForKey
+        #Endl
+        #Say "GAURDS! Capture him!"
+        #Endl
+        #WaitForKey
+
+        #ReDrawMap
+        #ClearNarate
+        #Narate "You are suddenly surrounded by several "
+        #Narate "gaurds. They grab you by your arms and "
+        #Narate "strike you several times. You black out..."
+        #WaitForKey
+
+        #Clear
+        #ClearNarate
+        #Narate "You begin to wake up in a haze and can hear "
+        #Narate "someone talking, they mention something about "
+        #Narate "\"completing the deal\""
+        #WaitForKey
+
+        #Clear
+        #ClearNarate
+        #Narate "Time passes and you begin to recover your vision "
+        #WaitForKey
+        #FlagOn "Prison1"
+        #Transport 15 1 10 50
+      #Return
+    #End
+
+    #IfAskYN "Did you forget what you are to do?"
+    #Begin
+      #Say "You are to go to Kharist are pick"
+      #Say "a magical piece of fruit off of one"
+      #Say "of the trees that grow there."
+      #Return
+    #End
+
+    #IfAskYN "Do you know where Kharist is?"
+    #Begin
+      #Say "Then ask me, or others, of it."
+      #Return
+    #End
+
+    #Say "Then go forth and complete your mission!"
+    #Return
+  #End
+
+  #Say "I'm sorry."
+  #IfAskYN "Dist you ask about the movement?"
+  #Begin
+    #Say "Let me ask thee."
+    #IfAskYN "Dost thou approve of the current war?"
+    #Begin
+      #Say "We all should. I approve as well."
+      #Return
+    #End
+    #Goto "Label_A"
+  #End
+  #Say "Oh. I mesheard."
+#Return
+
+:Label_A
+  #IfInBox 59 78 61 80
+  #Begin
+    #Say "The movement seeks to uncover the truth"
+    #Say "of why we are in perpetual war."
+    #Say "The reasons are... Dark."
+    #IfAskYN "Do you wish to join?"
+    #Begin
+      #IfAskYN "Are you willing to prove your worth?"
+      #Begin
+        #Say "Then I have a mission for you."
+        #WaitForKey
+        #Endl
+        #Endl
+        #Say "There is said to be a magical"
+        #Say "tree growing in Kharist."
+        #WaitForKey
+        #Endl
+        #Endl
+        #Say "I believe it may be a key to the"
+        #Say "war's dark past."
+        #WaitForKey
+        #Endl
+        #Endl
+        #Say "Pick it's fruit and return it to me."
+        #IntEqu [MissionStarted] 1
+        #Say "When you complete your mission, ask"
+        #Say "me about the movement again."
+        #Return
+      #End
+      #Say "Then you are not yet ready."
+      #Return
+    #End
+    #Say "Good. Because doing so would make you a"
+    #Say "traitor and I'd have to turn you over to"
+    #Say "those gaurds."
+    #Return
+  #End
+  #Say "I can't discuss such matters here."
+  #Say "See me when I'm in my room at the inn."
+#Return
+
+:Talk_Khari
+  #Say "Oh. Of course! You don't know of such"
+  #Say "matters. Take this book."
+  //Give book of Movement
+    #GiveScriptedItem 3 1
+  #Zap "Talk_Khari"
+#Return
+
+:Talk_Khari
+  #Say "Read the book I gave to you. It has the"
+  #Say "answers to your questions."
+  #Return
+#End
+
+:TooPoor
+  #Say "You haven't the fruit! Go complete your"
+  #Say "mission!"
+#Return
+^
+
+@Maria
+>Talker
+:Talk_Name
+  #Say "Maria."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "I keep the chamber's clean."
+#Return
+
+:Talk_Chamb
+  #Say "These small little rooms can"
+  #Say "get so dirty."
+#Return
+
+:Talk_Clean
+  #Say "The inn tries to look reletively"
+  #Say "grand."
+#Return
+
+:Talk_Grand
+  #Say "It's nothing like the inn at Vertigan."
+#Return
+
+:Talk_Verti
+  #Say "The Royal Balconies."
+#Return
+
+:Talk_Royal
+:Talk_Balco
+  #Say "Indeed, it's the finest place in the"
+  #Say "world. It cater's to the most greedy"
+  #Say "men alive."
+#Return
+
+:Talk_Fines
+  #Say "Parts of the inn are are larger than"
+  #Say "most villages."
+#Return
+
+:Talk_Greed
+  #Say "Indeed, greed rules Riltania."
+#Return
+
+:Talk_Rilta
+  #Say "The country profits from the war."
+#Return
+
+:Talk_Profi
+  #Say "They neutrally sell weapons to both"
+  #Say "sides of the conflict."
+#Return
+
+:Talk_Neutr
+:Talk_Confl
+  #Say "I must wonder if they fule its fire."
+#Return
+
+:Talk_Fuel
+:Talk_Fire
+  #Say "Of the war."
+#Return
+
+:Talk_War
+  #Say "'Tis for a noble cause."
+#Return
+
+:Talk_Noble
+  #Say "No doubt of it."
+#Return
+^
+
+@Shelly
+>Talker
+:Talk_Name
+  #Say "Shelly."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "I serve."
+#Return
+
+:Talk_Serve
+  #Say "I serve those who wish to drink."
+#Return
+
+:Talk_Drink
+  #Say "Ale."
+#Return
+
+:Talk_Ale
+  #Say "It's their escape."
+#Return
+
+:Talk_Escap
+  #Say "From reality."
+#Return
+
+:Talk_Reali
+  #Say "Reality is pain."
+#Return
+
+:Talk_Pain
+  #Say "Pain consumes us. It has for me."
+#Return
+
+:Talk_Consu
+  #Say "That's why I work here."
+#Return
+^
+
+@Derreck
+>Talker
+
+:Talk_Name
+  #Say "Derreck."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "I am a seeker of truth."
+#Return
+
+:Talk_Searc
+:Talk_Seek
+:Talk_seeke
+:Talk_Quest
+  #Say "I have traveled all over the"
+  #Say "world in search of adventure."
+#Return
+
+:Talk_Truth
+  #Say "To learn what really is true one must "
+  #Say "travel this world and see things for what "
+  #Say "they really are."
+#Return
+
+:Talk_Trave
+  #Say "Everywhere but Trisk."
+#Return
+
+:Talk_XYZZY
+  #Say "XYZZY is indeed the password."
+#Return
+
+:Talk_Trisk
+  #Say "I've heard rumors of what Trisk is."
+  #Say "I don't take too much stock in any of"
+  #Say "them. But if the city exists I'd like"
+  #Say "to see it."
+#Return
+
+:Talk_Adven
+  #Say "It is my quest..."
+  #IfAskYN "Are you on a quest?"
+  #Begin
+    #Say "Then I shall join you if you'd like."
+    #Return
+  #End
+  #Say "Then you will never know the truth."
+#Return
+
+:Talk_Join
+  #IfAskYN "Do you wish me to join your quest?"
+  #Begin
+    #Say "Then I will help on your quest!"
+    #GivePlayer 1
+    #Die
+    #IntEqu [StillTalking] 0
+    #Return
+  #End
+  #Say "If you change your mind let me know."
+#Return
+^
+
+@Harrold
+>Talker
+:Talk_Name
+  #Say "You haven't the right to know."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "What is it to you?!"
+#Return
+
+:Talk_What
+  #Say "Be gone fool!"
+#Return
+^
+
+@Peter
+>Talker
+:Talk_Name
+  #Say "I am peter."
+#Return
+
+:Talk_Work      
+:Talk_Job
+  #Say "Isn't that obvious? I farm."
+#Return
+
+:Talk_Farm
+  #Say "It is the most abundent"
+  #Say "profession in the land."
+#Return
+
+:Talk_Land
+  #Say "Landania."
+#Return
+
+:Talk_Abund
+:Talk_Profe
+  #Say "People must be fed."
+#Return
+
+:Talk_Peopl
+  #Say "Even our enemies need food"
+  #Say "to live."
+#Return
+
+:Talk_Fed
+  #Say "There's not much food these"
+  #Say "days but we must eat what we have."
+#Return
+
+:Talk_Enemi
+  #Say "Their food fuels their fury."
+#Return
+
+:Talk_Food
+  #Say "If we all had a little more"
+  #Say "to eat we'd probably be calmer."
+#Return
+
+:Talk_Fury
+  #Say "May Staltsaria be cast to hell."
+#Return
+
+:Talk_Hell
+  #Say "Our armies shall teach them all"
+  #Say "a lesson soon."
+#Return
+
+:Talk_Lesso
+  #Say "If it weren't for Staltsaria"
+  #Say "there'd be more food."
+#Return
+
+:Talk_Stalt
+  #Say "The war takes young farmer's"
+  #Say "and makes them soldiers."
+#Return
+
+:Talk_Soldi
+  #Say "Staltsaria causes all our problems."
+#Return
+^
+
+@FoodMerchant
+%int "StillTalking"
+
+:Talk
+  #IntEqu [StillTalking] 1
+  
+  #Say "Hello and welcome to the Rusty Stine."
+  #Say "What can I get you?"
+  #Endl
+
+  :DisplayItems
+    #Writeln "A: Ale         15g"
+    #Writeln "B: 5 Rations   55g"
+    #Writeln "C: 50 Rations  255g"
+    #Writeln "D: 100 Rations 455g"
+  
+    #Endl
+    #Write "Your respone"
+    #Write ">"
+  #GosubTalkResponse
+
+  #IfIntEqu [StillTalking] 1
+    #Goto "DisplayItems"
+#Return
+
+:Talk_Bye
+   #Say "Come again!"
+   #Endl
+   #IntEqu [StillTalking] 0
+#Return
+
+:Talk_A
+  #TakeGold 15 "TooPoor"
+  #GiveFood 1
+  #Endl
+  #Writeln "Purchased: Ale"
+  #Endl
+#Return
+
+:Talk_B
+  #TakeGold 55 "TooPoor"
+  #GiveFood 5
+  #Endl
+  #Writeln "Purchased: 5 Rations"
+  #Endl
+#Return
+
+:Talk_C
+  #TakeGold 255 "TooPoor"
+  #GiveFood 50
+  #Endl
+  #Writeln "Purchased: 50 Rations"
+  #Endl
+#Return
+
+:Talk_D
+  #TakeGold 455 "TooPoor"
+  #GiveFood 100
+  #Endl
+  #Writeln "Purchased: 100 Rations"
+  #Endl
+#Return
+
+:TooPoor
+  #Say "You haven't the money. Come again."
+  #Endl
+  #IntEqu [StillTalking] 0
+#Return
+
+^
+
+@InnKeeper
+%int "StillTalking"
+
+:Talk
+  #IntEqu [StillTalking] 1
+  
+  #Say "Hello and welcome to the Flickering Torch"
+  #Say "Inn. How may I help you tonight?"
+  #Endl
+
+  :DisplayItems
+    #Writeln "A: Room        30g"
+  
+    #Endl
+    #Write "Your respone"
+    #Write ">"
+  #GosubTalkResponse
+
+  #IfIntEqu [StillTalking] 1
+    #Goto "DisplayItems"
+#Return
+
+:Talk_Bye
+   #Say "Come again!"
+   #Endl
+   #IntEqu [StillTalking] 0
+#Return
+
+:Talk_A
+  #TakeGold 30 "TooPoor"
+  #Say "Have a pleasant stay."
+  #PutPlayer 61 82
+  #AddDays 1
+  #SetHour   7
+  #SetMinute 30
+  #DoEffect 3
+  #DoEffect 1
+  #Endl
+  #IntEqu [StillTalking] 0
+#Return
+
+:TooPoor
+  #Say "You haven't the money. Come again."
+  #Endl
+  #IntEqu [StillTalking] 0
+#Return
+
+^
+@ShipMerchant
+@ShipMerchant
+
+:Talk
+#Begin
+  #IfFLag "SpawnBoat"
+    #Say "You have already purchased a boat."
+  #Return
+
+  #Say "Welcome to Northend's Ship Yard. You"
+  #Say "may purchase a boat for 500 gold pieces."
+  #IfAskYN "Do you wish to purchase one?"
+  #Begin
+    #Say "Your boat is waiting at the docks."
+    #Endl #Endl
+    #FlagOn "SpawnBoat"
+    #Return
+  #End
+  #Say "Then you have no business here."
+  #Endl #Endl
+#End
+
+
+^
+
+

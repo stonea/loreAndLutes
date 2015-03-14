@@ -1,0 +1,21 @@
+@Map1Object
+%int "iTalkedTo"
+%string "ts"
+
+:Init
+  #Say "Init complete!"
+  #Endl
+  #IntEqu [iTalkedTo] 5
+#Return
+
+:Talk 
+  #IntInc [iTalkedTo]
+  #Say "Welcome to map 1 young one."
+  #IntToStr [ts] [iTalkedTo]
+  #Say "You talked to me"
+  #Say [ts]
+  #Say "minus 5 times."
+#Return
+
+^
+

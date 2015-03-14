@@ -1,0 +1,83 @@
+@glscript
+%int "ti1"
+%int "ti2"
+%string "ts1"
+%string "ts2"
+
+:item_watch
+  #Endl
+  #GetHour [ti1]
+  #GetMinute [ti2]
+  #IntToStr [ts1] [ti1]
+  #IntToStr [ts2] [ti2]
+  #Endl
+  #Writeln "Current time:"
+  #Write [ts1]
+  #Write ":"
+  #Writeln [ts2]
+  #Endl
+#Return
+
+:item_wine
+  #Writeln "You don't want to drink that."
+  #Endl
+#Return
+
+:item_none
+  #Writeln "Nothing happens."
+#Return
+
+:item_bk_movement
+  #DisplayFile "bk_movement.txt"
+#Return
+
+:item_key
+  #Write   "To use a key, search the door you "
+  #Writeln "wish to use it on." 
+  #Endl
+#Return
+
+:onkey_w
+  #Say "W"
+#Return
+
+:onkey_e
+  #Say "E"
+#Return
+
+:onkey_y
+  #Say "Y"
+#Return
+
+:onkey_o
+  #Say "O"
+#Return
+
+:onkey_d
+  #Say "D"
+#Return
+
+:onkey_f
+  #Say "F"
+#Return
+
+:onkey_j
+  #Say "J"
+#Return
+
+:onkey_c
+  #Say "C"
+#Return
+
+:onkey_v
+  #Say "V"
+#Return
+
+:onkey_n
+  #Say "N"
+#Return
+
+:onkey_m
+  #Say "M"
+#Return
+^
